@@ -1,5 +1,5 @@
 ---
-name: WenYing
+name: WenYing Deng
 image: images/avatar/dengwenying.JPG
 role: postgraduate
 group: alum
