@@ -1,9 +1,6 @@
 ---
-name: Xiao XU
+name: AJing Yang
 image: images/avatar/xuxiao.JPG
 role: assistant
 group: alum
-description: asistant
-links:
-    
 ---

@@ -35,7 +35,7 @@ The first paragraph in team, below the Title
 
 ## Ungrouped
 
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)(?!postdoc$)" %}
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)(?!postdoc$)(?!phd$)(?!undergrad$)(?!assistant$)" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
@@ -43,12 +43,12 @@ The second paragraph in team, below the Title
 
 {% include section.html %}
 
-{% capture content %}
+<!-- {% capture content %} -->
 
 <!-- {% include figure.html image="images/photo.jpg" %}
 {% include figure.html image="images/photo.jpg" %}
 {% include figure.html image="images/photo.jpg" %} -->
 
-{% endcapture %}
+<!-- {% endcapture %} -->
 
 {% include grid.html style="square" content=content %}
