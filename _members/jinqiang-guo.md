@@ -1,7 +1,7 @@
 ---
 name: JinQiang Guo
 image: images/avatar/guojinqiang.JPG
-role: PHD candidate
+role: phd
 group: alum
 description: PHD candidate
 links:

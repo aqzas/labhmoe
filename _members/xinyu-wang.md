@@ -1,9 +1,8 @@
 ---
 name: XinYu Wang
 image: images/avatar/wangxinyu.JPG
-role: PHD candidate
+role: phd
 group: alum
 description: PHD candidate
 links:
-    
 ---

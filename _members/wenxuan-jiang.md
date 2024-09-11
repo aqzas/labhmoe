@@ -1,7 +1,7 @@
 ---
 name: WenXuan Jiang 
 image: images/avatar/jiangwenxuan.JPG
-role: PHD candidate
+role: phd
 group: alum
 description: PHD candidate
 links:

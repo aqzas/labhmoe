@@ -1,7 +1,7 @@
 ---
 name: Xin Guan
 image: images/avatar/guanxin.JPG
-role: postgraduate
+role: undergrad
 group: alum
 description: postgraduate
 links:

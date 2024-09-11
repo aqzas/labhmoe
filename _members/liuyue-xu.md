@@ -1,7 +1,7 @@
 ---
 name: LiuYue Xu
 image: images/avatar/xuliuyue.JPG
-role: PHD candidate
+role: phd
 group: alum
 description: PHD candidate
 links:

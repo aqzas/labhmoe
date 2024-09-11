@@ -1,9 +1,6 @@
 ---
 name: Xiao XU
 image: images/avatar/xuxiao.JPG
-role: asistant
+role: assistant
 group: alum
-description: asistant
-links:
-    
 ---

@@ -1,7 +1,7 @@
 ---
 name: YanCheng Li
 image: images/avatar/liyancheng.JPG
-role: Postgraduate
+role: undergrad
 group: alum
 description: Postgraduate
 links:

@@ -1,7 +1,7 @@
 ---
 name: ChenChen Li
 image: images/avatar/lichenchen.JPG
-role: postgraduate
+role: undergrad
 group: alum
 description: postgraduate
 links:

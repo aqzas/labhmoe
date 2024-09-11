@@ -1,9 +1,6 @@
 ---
 name: SiYi Chen
 image: images/avatar/chensiyi.JPG
-role: Postdoctor
+role: postdoc
 group: alum
-description: Postdoctor
-links:
-    orcid: 0000-0001-8713-9213
 ---

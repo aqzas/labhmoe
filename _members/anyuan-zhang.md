@@ -1,7 +1,7 @@
 ---
 name: AnYuan Zhang
 image: images/avatar/zhanganyuan.JPG
-role: postgraduate
+role: undergrad
 group: alum
 description: postgraduate
 links:

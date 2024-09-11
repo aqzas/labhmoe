@@ -1,7 +1,7 @@
 ---
 name: YuLin Cao
 image: images/avatar/caoyulin.JPG
-role: PHD candidate
+role: phd
 group: alum
 description: PHD candidate
 links:

@@ -15,9 +15,27 @@ The first paragraph in team, below the Title
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 
+## Members
+
+### Postdoct
+
 {% include list.html data="members" component="portrait" filters="role: postdoc" %}
 
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)(?!phd$)" %}
+### Phd
+
+{% include list.html data="members" component="portrait" filters="role: phd" %}
+
+### Master
+
+{% include list.html data="members" component="portrait" filters="role: undergrad" %}
+
+## Assisant
+
+{% include list.html data="members" component="portrait" filters="role: assistant" %}
+
+## Ungrouped
+
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)(?!postdoc$)" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 

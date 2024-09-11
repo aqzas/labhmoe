@@ -1,7 +1,7 @@
 ---
-name: KeJing-Wang
+name: KeJing Wang
 image: images/avatar/wangkejing.JPG
-role: postgraduate
+role: undergrad
 group: alum
 description: postgraduate
 links:

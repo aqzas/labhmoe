@@ -1,7 +1,7 @@
 ---
 name: YuanYuan-Di
 image: images/avatar/diyuanyuan.JPG
-role: asistant
+role: assistant
 group: alum
 description: asistant
 links:

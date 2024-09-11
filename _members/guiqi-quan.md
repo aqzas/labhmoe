@@ -1,7 +1,7 @@
 ---
 name: GuiQi Quan
 image: images/avatar/quanguiqi.JPG
-role: asistant
+role: assistant
 group: alum
 description: asistant
 links:

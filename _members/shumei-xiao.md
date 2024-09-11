@@ -1,7 +1,7 @@
 ---
 name: ShuMei Xiao
 image: images/avatar/xiaoshumei.JPG
-role: postgraduate
+role: undergrad
 group: alum
 description: postgraduate
 links:
