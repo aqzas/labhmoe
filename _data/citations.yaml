@@ -54,3 +54,81 @@
   link: https://doi.org/gns26b
   plugin: sources.py
   file: sources.yaml
+- id: 10.1038/s41401-024-01327-3
+  title: Lethal pulmonary thromboembolism in mice induced by intravenous human umbilical
+    cord mesenchymal stem cell-derived large extracellular vesicles in a dose- and
+    tissue factor-dependent manner
+  authors:
+  - Bian-lei Yang
+  - Yao-ying Long
+  - Qian Lei
+  - Fei Gao
+  - Wen-xiang Ren
+  - Yu-lin Cao
+  - Di Wu
+  - Liu-yue Xu
+  - Jiao Qu
+  - He Li
+  - Ya-li Yu
+  - An-yuan Zhang
+  - Shan Wang
+  - Hong-xiang Wang
+  - Zhi-chao Chen
+  - Qiu-bai Li
+  publisher: Acta Pharmacologica Sinica
+  date: '2024-06-24'
+  link: https://doi.org/gwnqwm
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1021/acsnano.3c10547
+  title: Targeting Senescent Alveolar Epithelial Cells Using Engineered Mesenchymal
+    Stem Cell-Derived Extracellular Vesicles To Treat Pulmonary Fibrosis
+  authors:
+  - Yaoying Long
+  - Bianlei Yang
+  - Qian Lei
+  - Fei Gao
+  - Li Chen
+  - Wenlan Chen
+  - Siyi Chen
+  - Wenxiang Ren
+  - Yulin Cao
+  - Liuyue Xu
+  - Di Wu
+  - Jiao Qu
+  - He Li
+  - Yali Yu
+  - Anyuan Zhang
+  - Shan Wang
+  - Weiqun Chen
+  - Hongxiang Wang
+  - Ting Chen
+  - Zhichao Chen
+  - Qiubai Li
+  publisher: ACS Nano
+  date: '2024-02-21'
+  link: https://doi.org/gwnqwr
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.7150/thno.18915
+  title: Microvesicles as Potential Biomarkers for the Identification of Senescence
+    in Human Mesenchymal Stem Cells
+  authors:
+  - Qian Lei
+  - Teng Liu
+  - Fei Gao
+  - Hui Xie
+  - Li Sun
+  - Aiqi Zhao
+  - Wenxiang Ren
+  - Hao Guo
+  - Liming Zhang
+  - Hongxiang Wang
+  - Zhichao Chen
+  - An-Yuan Guo
+  - Qiubai Li
+  publisher: Theranostics
+  date: '2017-01-01'
+  link: https://doi.org/gbsq9x
+  plugin: sources.py
+  file: sources.yaml
