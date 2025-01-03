@@ -1,6 +1,6 @@
 ---
 name: QiuBai Li
-image: images/avatar/liqiubai.JPG
+image: images/avatar/liqiubai.jpg
 role: pi
 group: alum
 description: Full Professor
