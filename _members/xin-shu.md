@@ -1,6 +1,6 @@
 ---
 name: Xin Shu
-image: images/avatar/shuxin.JPG
+image: images/avatar/shuxin.jpg
 role: undergrad
 group: alum
 description: postgraduate
