@@ -1,6 +1,6 @@
 ---
 name: Jiao Qu
-image: images/avatar/ qujiao.JPG
+image: images/avatar/ qujiao.jpg
 role: phd
 group: alum
 ---
