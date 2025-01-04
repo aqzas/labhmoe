@@ -132,3 +132,18 @@
   link: https://doi.org/gbsq9x
   plugin: sources.py
   file: sources.yaml
+- id: 10.1093/stmcls/sxad087
+  title: 'Procoagulant Properties of Mesenchymal Stem Cells and Extracellular Vesicles:
+    A Novel Aspect of Thrombosis Pathogenesis'
+  authors:
+  - Bianlei Yang
+  - Yaoying Long
+  - Anyuan Zhang
+  - Hongxiang Wang
+  - Zhichao Chen
+  - Qiubai Li
+  publisher: Stem Cells
+  date: '2023-11-15'
+  link: https://doi.org/g8xnnw
+  plugin: sources.py
+  file: sources.yaml
