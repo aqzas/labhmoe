@@ -147,3 +147,255 @@
   link: https://doi.org/g8xnnw
   plugin: sources.py
   file: sources.yaml
+- id: 10.1038/s41401-023-01142-2
+  title: Targeting cytohesin-1 suppresses acute myeloid leukemia progression and overcomes
+    resistance to ABT-199
+  authors:
+  - Wen-xiang Ren
+  - Hao Guo
+  - Sheng-yan Lin
+  - Si-yi Chen
+  - Yao-ying Long
+  - Liu-yue Xu
+  - Di Wu
+  - Yu-lin Cao
+  - Jiao Qu
+  - Bian-lei Yang
+  - Hong-pei Xu
+  - He Li
+  - Ya-li Yu
+  - An-yuan Zhang
+  - Shan Wang
+  - Yi-cheng Zhang
+  - Ke-shu Zhou
+  - Zhi-chao Chen
+  - Qiu-bai Li
+  publisher: Acta Pharmacologica Sinica
+  date: '2023-08-29'
+  link: https://doi.org/gtrvzb
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1038/s41401-022-00896-5
+  title: The transplantation of rapamycin-treated senescent human mesenchymal stem
+    cells with enhanced proangiogenic activity promotes neovascularization and ischemic
+    limb salvage in mice
+  authors:
+  - Yu-lin Cao
+  - Wen-lan Chen
+  - Qian Lei
+  - Fei Gao
+  - Wen-xiang Ren
+  - Li Chen
+  - Hong-xiang Wang
+  - Ting Chen
+  - Qiu-bai Li
+  - Zhi-chao Chen
+  publisher: Acta Pharmacologica Sinica
+  date: '2022-04-01'
+  link: https://doi.org/g8xnqb
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1016/j.omtn.2019.09.014
+  title: 'Identification of STAB1 in Multiple Datasets as a Prognostic Factor for
+    Cytogenetically Normal AML: Mechanism and Drug Indications'
+  authors:
+  - Sheng-Yan Lin
+  - Fei-Fei Hu
+  - Ya-Ru Miao
+  - Hui Hu
+  - Qian Lei
+  - Qiong Zhang
+  - Qiubai Li
+  - Hongxiang Wang
+  - Zhichao Chen
+  - An-Yuan Guo
+  publisher: Molecular Therapy - Nucleic Acids
+  date: '2019-12-01'
+  link: https://doi.org/g8xnqc
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.7150/thno.27550
+  title: Tumor-derived extracellular vesicles inhibit osteogenesis and exacerbate
+    myeloma bone disease
+  authors:
+  - Liming Zhang
+  - Qian Lei
+  - Hongxiang Wang
+  - Cuiwei Xu
+  - Teng Liu
+  - Fancong Kong
+  - Cui Yang
+  - Guoxin Yan
+  - Li Sun
+  - Aiqi Zhao
+  - Wenlan Chen
+  - Yu Hu
+  - Hui Xie
+  - Yulin Cao
+  - Fenfen Fu
+  - Guolin Yuan
+  - Zhichao Chen
+  - An-Yuan Guo
+  - Qiubai Li
+  publisher: Theranostics
+  date: '2019-01-01'
+  link: https://doi.org/gjr7nn
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1007/s11596-018-1838-9
+  title: Enhanced Response of Acute Monocytic Leukemia Cells to Low-dose Cytarabine
+    by 1,25-dihydroxyvitamin D3
+  authors:
+  - Hao Guo
+  - Sheng-yan Lin
+  - Wen-xiang Ren
+  - Qian Lei
+  - Zhi-chao Chen
+  - Lu Zhang
+  - Qiu-bai Li
+  publisher: Current Medical Science
+  date: '2018-02-01'
+  link: https://doi.org/g8xnqd
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1038/aps.2017.116
+  title: BCR-ABL1-positive microvesicles malignantly transform human bone marrow mesenchymal
+    stem cells in vitro
+  authors:
+  - Fen-fen Fu
+  - Xiao-jian Zhu
+  - Hong-xiang Wang
+  - Li-ming Zhang
+  - Guo-lin Yuan
+  - Zhi-chao Chen
+  - Qiu-bai Li
+  publisher: Acta Pharmacologica Sinica
+  date: '2017-08-24'
+  link: https://doi.org/gbsfvm
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.3390/ijms18030513
+  title: 'Tumor Cell-Derived Microvesicles Induced Not Epithelial-Mesenchymal Transition
+    but Apoptosis in Human Proximal Tubular (HK-2) Cells: Implications for Renal Impairment
+    in Multiple Myeloma'
+  authors:
+  - Aiqi Zhao
+  - Fancong Kong
+  - Chun-Jie Liu
+  - Guoxin Yan
+  - Fei Gao
+  - Hao Guo
+  - An-Yuan Guo
+  - Zhichao Chen
+  - Qiubai Li
+  publisher: International Journal of Molecular Sciences
+  date: '2017-02-27'
+  link: https://doi.org/f9vps4
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1038/srep45622
+  title: Extracellular Vesicle-functionalized Decalcified Bone Matrix Scaffolds with
+    Enhanced Pro-angiogenic and Pro-bone Regeneration Activities
+  authors:
+  - Hui Xie
+  - Zhenxing Wang
+  - Liming Zhang
+  - Qian Lei
+  - Aiqi Zhao
+  - Hongxiang Wang
+  - Qiubai Li
+  - Yilin Cao
+  - Wen Jie Zhang
+  - Zhichao Chen
+  publisher: Scientific Reports
+  date: '2017-04-03'
+  link: https://doi.org/gc4zcv
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.7150/jca.35382
+  title: A 6-Membrane Protein Gene score for prognostic prediction of cytogenetically
+    normal acute myeloid leukemia in multiple cohorts
+  authors:
+  - Sheng-Yan Lin
+  - Ya-Ru Miao
+  - Fei-Fei Hu
+  - Hui Hu
+  - Qiong Zhang
+  - Qiubai Li
+  - Zhichao Chen
+  - An-Yuan Guo
+  publisher: Journal of Cancer
+  date: '2020-01-01'
+  link: https://doi.org/g8xnqf
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1371/journal.pone.0146614
+  title: 'Prognostic Significance of KIT Mutations in Core-Binding Factor Acute Myeloid
+    Leukemia: A Systematic Review and Meta-Analysis'
+  authors:
+  - Wenlan Chen
+  - Hui Xie
+  - Hongxiang Wang
+  - Li Chen
+  - Yi Sun
+  - Zhichao Chen
+  - Qiubai Li
+  publisher: PLOS ONE
+  date: '2016-01-15'
+  link: https://doi.org/f8mhrj
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1155/2016/6493241
+  title: "Mesenchymal Stem Cell\u2010Derived Microvesicles Support Ex Vivo Expansion\
+    \ of Cord Blood\u2010Derived CD34<sup>+</sup> Cells"
+  authors:
+  - Hui Xie
+  - Li Sun
+  - Liming Zhang
+  - Teng Liu
+  - Li Chen
+  - Aiqi Zhao
+  - Qian Lei
+  - Fei Gao
+  - Ping Zou
+  - Qiubai Li
+  - An-yuan Guo
+  - Zhichao Chen
+  - Hongxiang Wang
+  publisher: Stem Cells International
+  date: '2016-01-01'
+  link: https://doi.org/g8xnqg
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1038/aps.2013.141
+  title: Microvesicles secreted from human multiple myeloma cells promote angiogenesis
+  authors:
+  - Yan Liu
+  - Xiao-jian Zhu
+  - Chen Zeng
+  - Pin-hui Wu
+  - Hong-xiang Wang
+  - Zhi-chao Chen
+  - Qiu-bai Li
+  publisher: Acta Pharmacologica Sinica
+  date: '2013-12-30'
+  link: https://doi.org/f5qq6m
+  plugin: sources.py
+  file: sources.yaml
+- id: 10.1038/aps.2013.166
+  title: Serum deprivation elevates the levels of microvesicles with different size
+    distributions and selectively enriched proteins in human myeloma cells in vitro
+  authors:
+  - Li Sun
+  - Hong-xiang Wang
+  - Xiao-jian Zhu
+  - Pin-hui Wu
+  - Wei-qun Chen
+  - Ping Zou
+  - Qiu-bai Li
+  - Zhi-chao Chen
+  publisher: Acta Pharmacologica Sinica
+  date: '2013-12-30'
+  link: https://doi.org/f5twdc
+  plugin: sources.py
+  file: sources.yaml
