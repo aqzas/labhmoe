@@ -5,13 +5,14 @@
 
 {% include section.html background="images/home/image2.JPG" dark=false %}
 
-Welcome to UnionCell Lab. We focus on stem cells, extracellular vesicles, immune regulation, and translational strategies for complex disease treatment.
+Innovating Cell-Free & Cell-Based Therapies for Complex Diseases.
 
 ## Highlights
 
 {% capture text %}
 
-Our research explores the biological mechanisms and therapeutic potential of stem cells and extracellular vesicles, with a focus on immune regulation, tissue repair, and complex disease intervention.
+<em>Exploring the intersection of stem cell biology, 
+extracellular vesicles, and immunology.</em>
 
 {%
   include button.html
@@ -34,8 +35,8 @@ Our research explores the biological mechanisms and therapeutic potential of ste
 
 {% capture text %}
 
-Our projects aim to develop innovative cell-based and extracellular vesicle-based strategies for regenerative medicine, disease modeling, and clinical translation.
-
+<em>Bridging the gap from bench to bedside 
+with EV-based therapeutics and clinical trials.</em>
 
 {%
   include button.html
@@ -60,7 +61,9 @@ Our projects aim to develop innovative cell-based and extracellular vesicle-base
 
 {% capture text %}
 
-Meet our team of researchers, students, and collaborators working together to advance cell therapy, regenerative medicine, and translational biomedical research.
+<em>A multidisciplinary team of clinicians and scientists
+dedicated to medical innovation.</em>
+
 
 
 {%
