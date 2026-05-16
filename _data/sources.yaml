@@ -1,44 +1,135 @@
 - id: 10.1093/nar/gkaa796
-
 - id: 10.1093/nar/gky985
-
 - id: 10.1126/scitranslmed.aaz8697
-
 - id: 10.1038/s41401-024-01327-3
-
 - id: 10.1021/acsnano.3c10547
-
 - id: 10.7150/thno.18915
-
 - id: 10.1093/stmcls/sxad087
-
 - id: 10.1038/s41401-023-01142-2
-
 - id: 10.1038/s41401-022-00896-5
-
 - id: 10.1126/scitranslmed.aaz8697
-
 - id: 10.1016/j.omtn.2019.09.014
-
 - id: 10.7150/thno.27550
-
 - id: 10.1007/s11596-018-1838-9
-
 - id: 10.1038/aps.2017.116
-
 - id: 10.3390/ijms18030513
-
 - id: 10.1038/srep45622
-
 - id: 10.7150/thno.18915
-
 - id: 10.7150/jca.35382
-
 - id: 10.1371/journal.pone.0146614
-
 - id: 10.1155/2016/6493241
-
 - id: 10.1038/aps.2013.141
-
 - id: 10.1038/aps.2013.166
-
+- id: 10.1161/JAHA.125.041440
+  title: Ring Finger Protein 2 Promotes Oxidative Stress and Mitochondrial Dysfunction in Doxorubicin-Induced Cardiotoxicity Via the Mercaptopyruvate Sulfurtransferase/Hydrogen Sulfide Pathway
+  authors:
+  - Yi Zhong
+  - Di Fan
+  - Peiyi Zhang
+  - Xiaoxiang Mao
+  - Baoqing Liu
+  - Cheng Wang
+  - Qiubai Li
+  publisher: Journal of the American Heart Association
+  date: '2025-08-19'
+  link: https://www.ahajournals.org/doi/10.1161/JAHA.125.041440
+  type: paper
+- id: 10.3389/fmolb.2026.1768193
+  title: 'Longitudinal profiling of serum ADAM17 across clinical stages in multiple myeloma: a dynamic biomarker and its association with T cell alterations'
+  authors:
+  - Jiao Qu
+  - Yancheng Li
+  - Chenchen Li
+  - Di Wu
+  - Yulin Cao
+  - Shumei Xiao
+  - Xingshuo Bao
+  - Qiubai Li
+  - Zhichao Chen
+  - Lei Chen
+  publisher: Frontiers in Molecular Biosciences
+  date: '2026-01-30'
+  link: https://doi.org/10.3389/fmolb.2026.1768193
+  type: paper
+- id: 10.1002/ctm2.70327
+  title: Targeting capacity, safety and efficacy of engineered extracellular vesicles delivered by transdermal microneedles to treat plasmacytoma in mice
+  authors:
+  - Yulin Cao
+  - Xuan Hu
+  - Di Wu
+  - Yuxuan Jiang
+  - Yali Yu
+  - Shan Wang
+  - Wenlan Chen
+  - Yaoying Long
+  - Liuyue Xu
+  - Jiao Qu
+  - Bianlei Yang
+  - Blal Chakhabi
+  - Hongxiang Wang
+  - Yong Deng
+  - Lei Chen
+  - Zhichao Chen
+  - Qiubai Li
+  publisher: Clinical and Translational Medicine
+  date: '2025-05-01'
+  link: https://onlinelibrary.wiley.com/doi/10.1002/ctm2.70327
+  type: paper
+- id: 10.2147/IJN.S502591
+  title: 'Extracellular Vesicles: A Review of Their Therapeutic Potentials, Sources, Biodistribution, and Administration Routes'
+  authors:
+  - Xiaorong Su
+  - Hongxiang Wang
+  - Qiubai Li
+  - Zhichao Chen
+  publisher: International Journal of Nanomedicine
+  date: '2025-03-13'
+  link: https://www.tandfonline.com/doi/full/10.2147/IJN.S502591
+  type: paper
+- id: 10.3390/ijms26010225
+  title: Therapeutic Efficacy and Promise of Human Umbilical Cord Mesenchymal Stem Cell-Derived Extracellular Vesicles in Aging and Age-Related Disorders
+  authors:
+  - Anyuan Zhang
+  - Qiubai Li
+  - Zhichao Chen
+  publisher: International Journal of Molecular Sciences
+  date: '2024-12-30'
+  link: https://www.mdpi.com/resolver?pii=ijms26010225
+  type: paper
+- id: 10.3390/pharmaceutics16111439
+  title: 'Therapeutically Harnessing Tumor Cell-Derived Extracellular Vesicles for Multiple Myeloma: Recent Advances and Future Perspectives'
+  authors:
+  - Shumei Xiao
+  - Lei Chen
+  - Zhichao Chen
+  - Qiubai Li
+  publisher: Pharmaceutics
+  date: '2024-11-11'
+  link: https://www.mdpi.com/1999-4923/16/11/1439
+  type: paper
+- id: 10.1021/acsami.4c12725
+  title: Antisenescence Expansion of Mesenchymal Stem Cells Using Piezoelectric β-Poly(vinylidene fluoride) Film-Based Culture
+  authors:
+  - Liuyue Xu
+  - Wenxiang Ren
+  - Yaoying Long
+  - Bianlei Yang
+  - Li Chen
+  - Wenlan Chen
+  - Siyi Chen
+  - Yulin Cao
+  - Di Wu
+  - Jiao Qu
+  - He Li
+  - Yali Yu
+  - Anyuan Zhang
+  - Shan Wang
+  - Hongxiang Wang
+  - Ting Chen
+  - Guifen Fan
+  - Qiubai Li
+  - Zhichao Chen
+  publisher: ACS Applied Materials & Interfaces
+  date: '2024-11-20'
+  link: https://doi.org/10.1021/acsami.4c12725
+  type: paper
