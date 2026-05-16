@@ -1,7 +1,8 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: 10.1093/nar/gkaa796
-  title: 'TCRdb: a comprehensive database for T-cell receptor sequences with powerful search function'
+  title: 'TCRdb: a comprehensive database for T-cell receptor sequences with powerful
+    search function'
   authors:
   - Si-Yi Chen
   - Tao Yue
@@ -29,7 +30,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1126/scitranslmed.aaz8697
-  title: "Extracellular vesicles deposit\n            <i>PCNA</i>\n            to rejuvenate aged bone marrow–derived mesenchymal stem cells and slow age-related degeneration"
+  title: "Extracellular vesicles deposit\n            <i>PCNA</i>\n            to\
+    \ rejuvenate aged bone marrow\u2013derived mesenchymal stem cells and slow age-related\
+    \ degeneration"
   authors:
   - Qian Lei
   - Fei Gao
@@ -52,7 +55,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1038/s41401-024-01327-3
-  title: Lethal pulmonary thromboembolism in mice induced by intravenous human umbilical cord mesenchymal stem cell-derived large extracellular vesicles in a dose- and tissue factor-dependent manner
+  title: Lethal pulmonary thromboembolism in mice induced by intravenous human umbilical
+    cord mesenchymal stem cell-derived large extracellular vesicles in a dose- and
+    tissue factor-dependent manner
   authors:
   - Bian-lei Yang
   - Yao-ying Long
@@ -76,7 +81,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1021/acsnano.3c10547
-  title: Targeting Senescent Alveolar Epithelial Cells Using Engineered Mesenchymal Stem Cell-Derived Extracellular Vesicles To Treat Pulmonary Fibrosis
+  title: Targeting Senescent Alveolar Epithelial Cells Using Engineered Mesenchymal
+    Stem Cell-Derived Extracellular Vesicles To Treat Pulmonary Fibrosis
   authors:
   - Yaoying Long
   - Bianlei Yang
@@ -105,7 +111,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.7150/thno.18915
-  title: Microvesicles as Potential Biomarkers for the Identification of Senescence in Human Mesenchymal Stem Cells
+  title: Microvesicles as Potential Biomarkers for the Identification of Senescence
+    in Human Mesenchymal Stem Cells
   authors:
   - Qian Lei
   - Teng Liu
@@ -126,7 +133,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1093/stmcls/sxad087
-  title: 'Procoagulant Properties of Mesenchymal Stem Cells and Extracellular Vesicles: A Novel Aspect of Thrombosis Pathogenesis'
+  title: 'Procoagulant Properties of Mesenchymal Stem Cells and Extracellular Vesicles:
+    A Novel Aspect of Thrombosis Pathogenesis'
   authors:
   - Bianlei Yang
   - Yaoying Long
@@ -140,7 +148,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1038/s41401-023-01142-2
-  title: Targeting cytohesin-1 suppresses acute myeloid leukemia progression and overcomes resistance to ABT-199
+  title: Targeting cytohesin-1 suppresses acute myeloid leukemia progression and overcomes
+    resistance to ABT-199
   authors:
   - Wen-xiang Ren
   - Hao Guo
@@ -167,7 +176,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1038/s41401-022-00896-5
-  title: The transplantation of rapamycin-treated senescent human mesenchymal stem cells with enhanced proangiogenic activity promotes neovascularization and ischemic limb salvage in mice
+  title: The transplantation of rapamycin-treated senescent human mesenchymal stem
+    cells with enhanced proangiogenic activity promotes neovascularization and ischemic
+    limb salvage in mice
   authors:
   - Yu-lin Cao
   - Wen-lan Chen
@@ -185,7 +196,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1016/j.omtn.2019.09.014
-  title: 'Identification of STAB1 in Multiple Datasets as a Prognostic Factor for Cytogenetically Normal AML: Mechanism and Drug Indications'
+  title: 'Identification of STAB1 in Multiple Datasets as a Prognostic Factor for
+    Cytogenetically Normal AML: Mechanism and Drug Indications'
   authors:
   - Sheng-Yan Lin
   - Fei-Fei Hu
@@ -203,7 +215,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.7150/thno.27550
-  title: Tumor-derived extracellular vesicles inhibit osteogenesis and exacerbate myeloma bone disease
+  title: Tumor-derived extracellular vesicles inhibit osteogenesis and exacerbate
+    myeloma bone disease
   authors:
   - Liming Zhang
   - Qian Lei
@@ -230,7 +243,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1007/s11596-018-1838-9
-  title: Enhanced Response of Acute Monocytic Leukemia Cells to Low-dose Cytarabine by 1,25-dihydroxyvitamin D3
+  title: Enhanced Response of Acute Monocytic Leukemia Cells to Low-dose Cytarabine
+    by 1,25-dihydroxyvitamin D3
   authors:
   - Hao Guo
   - Sheng-yan Lin
@@ -245,7 +259,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1038/aps.2017.116
-  title: BCR-ABL1-positive microvesicles malignantly transform human bone marrow mesenchymal stem cells in vitro
+  title: BCR-ABL1-positive microvesicles malignantly transform human bone marrow mesenchymal
+    stem cells in vitro
   authors:
   - Fen-fen Fu
   - Xiao-jian Zhu
@@ -260,7 +275,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.3390/ijms18030513
-  title: 'Tumor Cell-Derived Microvesicles Induced Not Epithelial-Mesenchymal Transition but Apoptosis in Human Proximal Tubular (HK-2) Cells: Implications for Renal Impairment in Multiple Myeloma'
+  title: 'Tumor Cell-Derived Microvesicles Induced Not Epithelial-Mesenchymal Transition
+    but Apoptosis in Human Proximal Tubular (HK-2) Cells: Implications for Renal Impairment
+    in Multiple Myeloma'
   authors:
   - Aiqi Zhao
   - Fancong Kong
@@ -277,7 +294,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1038/srep45622
-  title: Extracellular Vesicle-functionalized Decalcified Bone Matrix Scaffolds with Enhanced Pro-angiogenic and Pro-bone Regeneration Activities
+  title: Extracellular Vesicle-functionalized Decalcified Bone Matrix Scaffolds with
+    Enhanced Pro-angiogenic and Pro-bone Regeneration Activities
   authors:
   - Hui Xie
   - Zhenxing Wang
@@ -295,7 +313,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.7150/jca.35382
-  title: A 6-Membrane Protein Gene score for prognostic prediction of cytogenetically normal acute myeloid leukemia in multiple cohorts
+  title: A 6-Membrane Protein Gene score for prognostic prediction of cytogenetically
+    normal acute myeloid leukemia in multiple cohorts
   authors:
   - Sheng-Yan Lin
   - Ya-Ru Miao
@@ -311,7 +330,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1371/journal.pone.0146614
-  title: 'Prognostic Significance of KIT Mutations in Core-Binding Factor Acute Myeloid Leukemia: A Systematic Review and Meta-Analysis'
+  title: 'Prognostic Significance of KIT Mutations in Core-Binding Factor Acute Myeloid
+    Leukemia: A Systematic Review and Meta-Analysis'
   authors:
   - Wenlan Chen
   - Hui Xie
@@ -326,7 +346,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1155/2016/6493241
-  title: Mesenchymal Stem Cell‐Derived Microvesicles Support Ex Vivo Expansion of Cord Blood‐Derived CD34<sup>+</sup> Cells
+  title: "Mesenchymal Stem Cell\u2010Derived Microvesicles Support Ex Vivo Expansion\
+    \ of Cord Blood\u2010Derived CD34<sup>+</sup> Cells"
   authors:
   - Hui Xie
   - Li Sun
@@ -362,7 +383,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1038/aps.2013.166
-  title: Serum deprivation elevates the levels of microvesicles with different size distributions and selectively enriched proteins in human myeloma cells in vitro
+  title: Serum deprivation elevates the levels of microvesicles with different size
+    distributions and selectively enriched proteins in human myeloma cells in vitro
   authors:
   - Li Sun
   - Hong-xiang Wang
@@ -378,7 +400,9 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1161/JAHA.125.041440
-  title: Ring Finger Protein 2 Promotes Oxidative Stress and Mitochondrial Dysfunction in Doxorubicin-Induced Cardiotoxicity Via the Mercaptopyruvate Sulfurtransferase/Hydrogen Sulfide Pathway
+  title: Ring Finger Protein 2 Promotes Oxidative Stress and Mitochondrial Dysfunction
+    in Doxorubicin-Induced Cardiotoxicity Via the Mercaptopyruvate Sulfurtransferase/Hydrogen
+    Sulfide Pathway
   authors:
   - Yi Zhong
   - Di Fan
@@ -394,7 +418,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.3389/fmolb.2026.1768193
-  title: 'Longitudinal profiling of serum ADAM17 across clinical stages in multiple myeloma: a dynamic biomarker and its association with T cell alterations'
+  title: 'Longitudinal profiling of serum ADAM17 across clinical stages in multiple
+    myeloma: a dynamic biomarker and its association with T cell alterations'
   authors:
   - Jiao Qu
   - Yancheng Li
@@ -413,7 +438,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1002/ctm2.70327
-  title: Targeting capacity, safety and efficacy of engineered extracellular vesicles delivered by transdermal microneedles to treat plasmacytoma in mice
+  title: Targeting capacity, safety and efficacy of engineered extracellular vesicles
+    delivered by transdermal microneedles to treat plasmacytoma in mice
   authors:
   - Yulin Cao
   - Xuan Hu
@@ -439,7 +465,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.2147/IJN.S502591
-  title: 'Extracellular Vesicles: A Review of Their Therapeutic Potentials, Sources, Biodistribution, and Administration Routes'
+  title: 'Extracellular Vesicles: A Review of Their Therapeutic Potentials, Sources,
+    Biodistribution, and Administration Routes'
   authors:
   - Xiaorong Su
   - Hongxiang Wang
@@ -452,7 +479,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.3390/ijms26010225
-  title: Therapeutic Efficacy and Promise of Human Umbilical Cord Mesenchymal Stem Cell-Derived Extracellular Vesicles in Aging and Age-Related Disorders
+  title: Therapeutic Efficacy and Promise of Human Umbilical Cord Mesenchymal Stem
+    Cell-Derived Extracellular Vesicles in Aging and Age-Related Disorders
   authors:
   - Anyuan Zhang
   - Qiubai Li
@@ -464,7 +492,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.3390/pharmaceutics16111439
-  title: 'Therapeutically Harnessing Tumor Cell-Derived Extracellular Vesicles for Multiple Myeloma: Recent Advances and Future Perspectives'
+  title: 'Therapeutically Harnessing Tumor Cell-Derived Extracellular Vesicles for
+    Multiple Myeloma: Recent Advances and Future Perspectives'
   authors:
   - Shumei Xiao
   - Lei Chen
@@ -477,7 +506,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1021/acsami.4c12725
-  title: Antisenescence Expansion of Mesenchymal Stem Cells Using Piezoelectric β-Poly(vinylidene fluoride) Film-Based Culture
+  title: "Antisenescence Expansion of Mesenchymal Stem Cells Using Piezoelectric \u03B2\
+    -Poly(vinylidene fluoride) Film-Based Culture"
   authors:
   - Liuyue Xu
   - Wenxiang Ren
