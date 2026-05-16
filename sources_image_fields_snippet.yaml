@@ -1,0 +1,80 @@
+- id: 10.1093/nar/gkaa796
+  image: images/research/tcrdb.jpeg
+
+- id: 10.1093/nar/gky985
+  image: images/research/evmirna.jpeg
+
+- id: 10.1126/scitranslmed.aaz8697
+  image: images/research/pcna-rejuvenate.png
+
+- id: 10.1038/s41401-024-01327-3
+  image: images/research/lethal-pulmonary-thromboembolism.png
+
+- id: 10.1021/acsnano.3c10547
+  image: images/research/engineered-evs-pulmonary-fibrosis.jpg
+
+- id: 10.7150/thno.18915
+  image: images/research/senescence-biomarkers.jpg
+
+- id: 10.1093/stmcls/sxad087
+  image: images/research/procoagulant-properties.jpeg
+
+- id: 10.1038/s41401-023-01142-2
+  image: images/research/cytohesin-1-aml.png
+
+- id: 10.1038/s41401-022-00896-5
+  image: images/research/rapamycin-senescent-msc.png
+
+- id: 10.1016/j.omtn.2019.09.014
+  image: images/research/stab1-aml.jpg
+
+- id: 10.7150/thno.27550
+  image: images/research/myeloma-bone-disease.jpg
+
+- id: 10.1007/s11596-018-1838-9
+  image: images/research/cytarabine-vitamin-d3.png
+
+- id: 10.1038/aps.2017.116
+  image: images/research/bcr-abl1-microvesicles.jpg
+
+- id: 10.3390/ijms18030513
+  image: images/research/hk2-apoptosis.jpg
+
+- id: 10.1038/srep45622
+  image: images/research/dbm-scaffolds.jpg
+
+- id: 10.7150/jca.35382
+  image: images/research/six-membrane-protein-score.jpeg
+
+- id: 10.1371/journal.pone.0146614
+  image: images/research/kit-mutations-aml.png
+
+- id: 10.1155/2016/6493241
+  image: images/research/cd34-expansion.png
+
+- id: 10.1038/aps.2013.141
+  image: images/research/myeloma-angiogenesis.jpg
+
+- id: 10.1038/aps.2013.166
+  image: images/research/serum-deprivation-microvesicles.jpg
+
+- id: 10.3389/fmolb.2026.1768193
+  image: images/research/adam17-multiple-myeloma.jpg
+
+- id: 10.1161/JAHA.125.041440
+  image: images/research/rnf2-doxorubicin-cardiotoxicity.png
+
+- id: 10.1002/ctm2.70327
+  image: images/research/microneedles-plasmacytoma.jpg
+
+- id: 10.2147/IJN.S502591
+  image: images/research/ev-review.jpg
+
+- id: 10.3390/ijms26010225
+  image: images/research/umbilical-cord-msc-ev-aging.jpg
+
+- id: 10.1021/acsami.4c12725
+  image: images/research/antisenescence-pvdf-culture.gif
+
+- id: 10.3390/pharmaceutics16111439
+  image: images/research/tumor-cell-derived-evs-myeloma-review.jpg
