@@ -3,7 +3,7 @@
 
 # UnionCell lab
 
-{% include section.html %}
+{% include section.html background="images/home/image2.jpg" dark=false %}
 
 Welcome to UnionCell Lab. We focus on stem cells, extracellular vesicles, immune regulation, and translational strategies for complex disease treatment.
 
