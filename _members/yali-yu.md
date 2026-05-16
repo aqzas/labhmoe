@@ -1,9 +1,7 @@
 ---
 name: YaLi Yu
-image: images/avatar/yuyali.JPG
+image: images/avatar/YaLiYu.JPG
 role: phd
-group: alum
-description: PHD candidate
+description: PhD candidate
 links:
-    
 ---

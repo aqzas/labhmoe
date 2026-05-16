@@ -1,9 +1,7 @@
 ---
 name: BianLei Yang
-image: images/avatar/yangbianlei.JPG
+image: images/avatar/BianLeiYang.JPG
 role: phd
-group: alum
-description: PHD candidate
+description: PhD candidate
 links:
-    
 ---

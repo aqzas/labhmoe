@@ -27,7 +27,7 @@ The first paragraph in team, below the Title
 
 ### Master
 
-{% include list.html data="members" component="portrait" filters="role: undergrad" %}
+{% include list.html data="members" component="portrait" filters="role: master" %}
 
 ## Assisant
 
