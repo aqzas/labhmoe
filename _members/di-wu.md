@@ -1,6 +1,6 @@
 ---
 name: Di Wu
 image: images/avatar/wudi.JPG
-role: phd
+role: PostDoc
 group: alum 
 ---
