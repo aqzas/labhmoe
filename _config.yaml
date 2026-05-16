@@ -1,9 +1,9 @@
-# site properties and page defaults
+  # site properties and page defaults
 title: UnionCell lab
 subtitle: 
 description: 
-header: images/xh.jpg
-footer: images/xh.jpg
+header: images/home/image1.jpg
+footer: mages/home/image1.jpg
 proofer: false
 
 # site social media and other links
