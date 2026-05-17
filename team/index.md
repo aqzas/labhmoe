@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-The first paragraph in team, below the Title
+A collaborative team of clinicians and scientists working together to advance medical frontiers.
 
 {% include section.html %}
 
