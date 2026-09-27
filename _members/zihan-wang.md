@@ -1,6 +1,6 @@
 ---
-name: XinYu Wang
-image: images/avatar/wangxinyu.jpg
+name: ZiHan Wang
+image: images/avatar/wangzihan.jpg
 role: clinical_medicine
 description: 8-Year Clinical Medicine Student
 ---

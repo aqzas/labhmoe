@@ -1,6 +1,6 @@
 ---
-name: Xin Shu
-image: images/avatar/shuxin.jpg
+name: YuChen Qi
+image: images/avatar/qiyuchen.jpg
 role: master
 description: Master's Student
 ---

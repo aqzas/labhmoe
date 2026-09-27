@@ -1,7 +1,6 @@
 ---
 name: YaoHua Cai
 image: images/avatar/YaoHuaCai.JPG
-role: PostDoctor
-description: PostDoctor
-links:
+role: postdoc
+description: Postdoctoral Researcher
 ---

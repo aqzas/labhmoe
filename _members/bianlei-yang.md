@@ -1,7 +1,6 @@
 ---
 name: BianLei Yang
 image: images/avatar/BianLeiYang.JPG
-role: phd
-description: PhD candidate
-links:
+role: postdoc
+description: Postdoctoral Researcher
 ---

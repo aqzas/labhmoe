@@ -1,9 +1,8 @@
 ---
-name: WenXuan Jiang 
+name: WenXuan Jiang
 image: images/avatar/jiangwenxuan.JPG
-role: phd
-group: alum
-description: PHD candidate
+role: clinical_medicine
+description: 8-Year Clinical Medicine Student
 links:
-    github: JWX824
+  github: JWX824
 ---

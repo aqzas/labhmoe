@@ -1,9 +1,8 @@
 ---
 name: WenYing Deng
 image: images/avatar/dengwenying.JPG
-role: undergrad
-group: alum
-description: postgraduate
+role: master
+description: Master's Student
 links:
-     github: JWX824
+  github: JWX824
 ---

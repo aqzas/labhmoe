@@ -1,9 +1,6 @@
 ---
 name: KeJing Wang
-image: images/avatar/wangkejing.JPG
-role: undergrad
-group: alum
-description: postgraduate
-links:
-    
+image: images/avatar/wangkejing.jpg
+role: master
+description: Master's Student
 ---

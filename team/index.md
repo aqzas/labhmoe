@@ -13,42 +13,29 @@ A collaborative team of clinicians and scientists working together to advance me
 
 ## Team Leader
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
+{% assign leaders = site.members | where: "role", "pi" | sort: "order" %}
+{% for leader in leaders %}
+{% include portrait.html lookup=leader.slug %}
+{% endfor %}
 
 ## Members
 
-### Postdoct
+### Postdoctoral Researchers
 
-{% include list.html data="members" component="portrait" filters="role: postdoc" %}
+{% include list.html data="members" component="portrait" filters="role: ^postdoc$" %}
 
-### Phd
+### PhD Students
 
-{% include list.html data="members" component="portrait" filters="role: phd" %}
+{% include list.html data="members" component="portrait" filters="role: ^phd$" %}
 
-### Master
+### Master's Students
 
-{% include list.html data="members" component="portrait" filters="role: master" %}
+{% include list.html data="members" component="portrait" filters="role: ^master$" %}
 
-## Assisant
+### 8-Year Clinical Medicine Program
 
-{% include list.html data="members" component="portrait" filters="role: assistant" %}
+{% include list.html data="members" component="portrait" filters="role: ^clinical_medicine$" %}
 
-## Ungrouped
+## Assistant
 
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)(?!postdoc$)(?!phd$)(?!undergrad$)(?!assistant$)" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-The second paragraph in team, below the Title
-
-{% include section.html %}
-
-<!-- {% capture content %} -->
-
-<!-- {% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %} -->
-
-<!-- {% endcapture %} -->
-
-{% include grid.html style="square" content=content %}
+{% include list.html data="members" component="portrait" filters="role: ^assistant$" %}

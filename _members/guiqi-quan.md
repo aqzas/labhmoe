@@ -1,7 +1,6 @@
 ---
 name: GuiQi Quan
-image: images/avatar/quanguiqi.JPG
+image: images/avatar/quanguiqi.jpg
 role: assistant
-group: alum
-#description: asistant
+description: Assistant
 ---

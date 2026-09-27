@@ -1,6 +1,6 @@
 ---
-name: XinYu Wang
-image: images/avatar/wangxinyu.jpg
+name: FuJing Huang
+image: images/avatar/huangfujing.jpg
 role: clinical_medicine
 description: 8-Year Clinical Medicine Student
 ---

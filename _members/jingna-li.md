@@ -1,7 +1,6 @@
 ---
 name: JingNa Li
 image: images/avatar/JingNaLi.JPG
-role: PostDoctor
-description: PostDoctor
-links:
+role: postdoc
+description: Postdoctoral Researcher
 ---
