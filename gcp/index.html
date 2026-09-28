@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>GCP | UnionCell lab</title>
+<title>Clinical Trials / GCP | UnionCell lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="GCP">
+<meta name="title" content="Clinical Trials / GCP">
 <meta name="description" content="">
 
-<meta property="og:title" content="GCP">
+<meta property="og:title" content="Clinical Trials / GCP">
 <meta property="og:site_title" content="UnionCell lab">
 <meta property="og:description" content="">
 <meta property="og:url" content="https://home.unioncell.cn">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="GCP">
+<meta property="twitter:title" content="Clinical Trials / GCP">
 <meta property="twitter:description" content="">
 <meta property="twitter:url" content="https://home.unioncell.cn">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "GCP",
+    "name": "Clinical Trials / GCP",
     "description": "",
-    "headline": "GCP",
+    "headline": "Clinical Trials / GCP",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -365,6 +365,8 @@
 
   <script src="/_scripts/tooltip.js"></script>
 
+  <script src="/_scripts/trial-filter.js"></script>
+
 
 </head>
 
@@ -484,7 +486,7 @@
     
       
         <a href="/gcp/" data-tooltip="Clinical Trials and GCP">
-          GCP
+          Clinical Trials / GCP
         </a>
       
     
@@ -515,14 +517,10 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="gcp">
-<i class="icon fa-solid fa-notes-medical"></i>GCP</h1>
+    <h1 id="clinical-trials--gcp">
+<i class="icon fa-solid fa-notes-medical"></i>Clinical Trials / GCP</h1>
 
-<h2 id="clinical-trials--good-clinical-practice">Clinical Trials &amp; Good Clinical Practice</h2>
-
-<p>Our laboratory conducts and participates in investigator-initiated and multicenter clinical studies, with a focus on innovative cellular and immune therapies for rheumatic and autoimmune diseases.</p>
-
-<p>This section presents clinical research on CAR-T cell therapy and T-cell engager (TCE) therapy. Study details and recruitment information will be added as they become available.</p>
+<p>本页面展示课题组开展或参与的风湿免疫相关临床研究项目，涵盖细胞治疗及 T 细胞衔接器等创新治疗方向。</p>
   </section>
 
   
@@ -536,29 +534,251 @@
   size: ;
 -->
 
-<h2 id="ongoing-trials">Ongoing Trials</h2>
+<div class="trial-list" data-trial-list="" lang="zh-CN">
+  <div class="trial-filters" role="group" aria-label="按产品类型筛选" hidden="">
+    <button type="button" class="button trial-filter" data-filter-all="" aria-pressed="true" aria-controls="trial-grid">All</button>
+    
+    <button type="button" class="button trial-filter" data-product-type="TCE" aria-pressed="false" aria-controls="trial-grid">TCE</button>
+    
+    <button type="button" class="button trial-filter" data-product-type="CAR-T" aria-pressed="false" aria-controls="trial-grid">CAR-T</button>
+    
+    <button type="button" class="button trial-filter" data-product-type="CAR-NK" aria-pressed="false" aria-controls="trial-grid">CAR-NK</button>
+    
+    <button type="button" class="button trial-filter" data-product-type="in vivo CART" aria-pressed="false" aria-controls="trial-grid">in vivo CART</button>
+    
+  </div>
+  <div class="trial-grid" id="trial-grid">
+    
+    <article class="trial-card" id="trial-001" data-product-type="TCE" aria-labelledby="trial-001-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">IIT</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-001-title">重组 CD19 x CD3 双抗体 (A-319) 治疗活动性难治性系统性红斑狼疮的临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">活动性难治性系统性红斑狼疮</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">A-319（CD19×CD3 双特异性 T 细胞衔接器）</dd>
+    </div>
+  </dl>
+</article>
 
-<p>Details of ongoing studies will be published here when available.</p>
+    
+    <article class="trial-card" id="trial-002" data-product-type="CAR-T" aria-labelledby="trial-002-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">CAR-T</span>
+    <span class="trial-card__phase" aria-label="临床分期">I/IIa 期</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-002-title">评价靶向 CD19 和 BCMA 的通用型异基因 CAR-T 细胞（QT-019B）治疗难治性系统性红斑狼疮的 I/IIa 期临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">难治性系统性红斑狼疮</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">通用型异基因 CAR-T 细胞（QT-019B，靶向 CD19/BCMA）</dd>
+    </div>
+  </dl>
+</article>
 
-<h2 id="completed-trials">Completed Trials</h2>
+    
+    <article class="trial-card" id="trial-003" data-product-type="CAR-NK" aria-labelledby="trial-003-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">CAR-NK</span>
+    <span class="trial-card__phase" aria-label="临床分期">Ⅰ 期</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-003-title">一项评价KN5501细胞注射液（KN5501）治疗中重度难治性系统性红斑狼疮（SLE）的安全性、耐受性和初步有效性的Ⅰ期临床试验</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">中重度难治性系统性红斑狼疮</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">KN5501 细胞注射液（CAR-T 类细胞产品）</dd>
+    </div>
+  </dl>
+</article>
 
-<p>Completed study information will be added when available.</p>
-  </section>
+    
+    <article class="trial-card" id="trial-004" data-product-type="TCE" aria-labelledby="trial-004-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">IIT</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-004-title">重组抗 CD19m-CD3 抗体注射液（A-319）治疗活动性类风湿关节炎（RA）的临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">活动性类风湿关节炎</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">A-319（CD19×CD3 双特异性 T 细胞衔接器）</dd>
+    </div>
+  </dl>
+</article>
 
-  
-  
-  
+    
+    <article class="trial-card" id="trial-006" data-product-type="TCE" aria-labelledby="trial-006-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">早期I期临床研究</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-006-title">评价 GB261 在难治性血清学阳性的系统性红斑狼疮患者中的安全性、耐受性、药代动力学、药效学、免疫原性和初步临床疗效的开放标签的临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">难治性血清学阳性系统性红斑狼疮</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">GB261（TCE 类双特异性抗体）</dd>
+    </div>
+  </dl>
+</article>
 
-  <section class="background" data-size="page">
-    <!--
-  background: ;
-  dark: ;
-  size: ;
--->
+    
+    <article class="trial-card" id="trial-007" data-product-type="TCE" aria-labelledby="trial-007-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">早期I期临床研究</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-007-title">评价 Cizutamig 在难治性血清学阳性的类风湿关节炎患者中的安全性、耐受性、药代动力学、药效学、免疫原性和初步临床疗效的开放标签的临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">难治性血清学阳性类风湿关节炎</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">Cizutamig（TCE 类双特异性抗体）</dd>
+    </div>
+  </dl>
+</article>
 
-<h2 id="trial-information">Trial Information</h2>
+    
+    <article class="trial-card" id="trial-008" data-product-type="in vivo CART" aria-labelledby="trial-008-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">in vivo CART</span>
+    <span class="trial-card__phase" aria-label="临床分期">探索性临床研究</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-008-title">EVM18001 注射液治疗活动性难治性系统性红斑狼疮、重症肌无力和硬皮病的探索性临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">系统性红斑狼疮、系统性硬化症、重症肌无力</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">EVM18001注射液</dd>
+    </div>
+  </dl>
+</article>
 
-<p>Each study page provides the available disease focus, therapy, study status, study type, study site, and registration information. Eligibility criteria and study contacts are listed when confirmed. Please refer to the individual study page for recruitment details.</p>
+    
+    <article class="trial-card" id="trial-009" data-product-type="TCE" aria-labelledby="trial-009-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">IIT</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-009-title">评价注射用 YKST02 单药或联合注射用 YK012 治疗难治性 / 活动性系统性红斑狼疮的安全性、耐受性、药代动力学、药效动力学及初步有效性的临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">难治性 / 活动性系统性红斑狼疮</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">YKST02（CD3xCD19）</dd>
+    </div>
+  </dl>
+</article>
+
+    
+    <article class="trial-card" id="trial-010" data-product-type="TCE" aria-labelledby="trial-010-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">Ib 期</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-010-title">评价F182112治疗系统性红斑狼疮患者的安全性、耐受性、初步有效性、药代动力学及免疫原性特征的Ib期临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">系统性红斑狼疮</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">F182112（TCE（重组人源化抗 BCMA/CD3 双特异性抗体）</dd>
+    </div>
+  </dl>
+</article>
+
+    
+    <article class="trial-card" id="trial-011" data-product-type="TCE" aria-labelledby="trial-011-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">I 期</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-011-title">一项在系统性红斑狼疮和类风湿性关节炎受试者中评价 MK-1045 的安全性、耐受性、药代动力学和药效学的剂量递增临床研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">系统性红斑狼疮、类风湿关节炎</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">MK-1045（双特异性T细胞衔接器/靶点CD3xCD19）</dd>
+    </div>
+  </dl>
+</article>
+
+    
+    <article class="trial-card" id="trial-012" data-product-type="TCE" aria-labelledby="trial-012-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">I 期</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-012-title">一项评估 AZD5492 在系统性红斑狼疮或特发性炎症性肌病成人受试者中单剂量递增和逐步剂量递增给药后的安全性、耐受性、药代动力学和药效学的开放标签、 I 期研究</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">系统性红斑狼疮、特发性炎症性肌病</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">AZD5492（CD20以及人T细胞上表达的CD8和T细胞受体）</dd>
+    </div>
+  </dl>
+</article>
+
+    
+    <article class="trial-card" id="trial-013" data-product-type="TCE" aria-labelledby="trial-013-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">TCE</span>
+    <span class="trial-card__phase" aria-label="临床分期">Ib/IIa期</span>
+  </div>
+  <h2 class="trial-card__title" id="trial-013-title">一项评价GR1803注射液在系统性红斑狼疮和特发性炎症性肌病等B细胞介导的自身免疫性疾病受试者中安全性、耐受性和初步有效性的开放、多中心Ib/IIa期临床试验</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">系统性红斑狼疮和特发性炎症性肌病</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">GR1803注射液（CD3和BCMA）</dd>
+    </div>
+  </dl>
+</article>
+
+    
+  </div>
+</div>
   </section>
 
 
