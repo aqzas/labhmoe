@@ -1,8 +1,17 @@
-<article class="trial-card">
-  <h3><a href="{{ include.trial.url | relative_url }}">{{ include.trial.title | escape }}</a></h3>
-  {% if include.trial.status and include.trial.status != "" %}
-    <p class="trial-status"><span>{{ include.trial.status | escape }}</span></p>
-  {% endif %}
-  {% include trial-fields.html trial=include.trial %}
-  <a class="trial-details" href="{{ include.trial.url | relative_url }}" aria-label="View details: {{ include.trial.title | escape }}">View Details {% include icon.html icon="fa-solid fa-arrow-right" %}</a>
+<article class="trial-card" id="{{ include.trial.id | escape }}" data-product-type="{{ include.trial.product_type | escape }}" aria-labelledby="{{ include.trial.id | escape }}-title">
+  <div class="trial-card__meta">
+    <span class="trial-card__type" aria-label="产品类型">{{ include.trial.product_type | escape }}</span>
+    <span class="trial-card__phase" aria-label="临床分期">{{ include.trial.phase | escape }}</span>
+  </div>
+  <h2 class="trial-card__title" id="{{ include.trial.id | escape }}-title">{{ include.trial.title | escape }}</h2>
+  <dl class="trial-card__fields">
+    <div>
+      <dt>适应症</dt>
+      <dd class="trial-card__indication">{{ include.trial.indication | escape }}</dd>
+    </div>
+    <div>
+      <dt>药物干预手段</dt>
+      <dd class="trial-card__intervention">{{ include.trial.intervention | escape }}</dd>
+    </div>
+  </dl>
 </article>

@@ -87,12 +87,12 @@ dedicated to medical innovation.</em>
 
 {% capture text %}
 
-<em>Advancing innovative cellular and immune therapies through clinical studies and investigator-initiated trials.</em>
+<em>Explore clinical studies in innovative cellular and immune therapies for rheumatic and autoimmune diseases.</em>
 
 {%
   include button.html
-  link="gcp"
-  text="Explore clinical trials"
+  link="/gcp/"
+  text="View Clinical Trials"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -104,8 +104,8 @@ dedicated to medical innovation.</em>
 {%
   include feature.html
   image=gcp_image
-  link="gcp"
-  title="Clinical Trials"
+  link="/gcp/"
+  title="Clinical Trials / GCP"
   flip=true
   text=text
 %}

@@ -1,59 +1,29 @@
 ---
-title: GCP
+title: Clinical Trials / GCP
 nav:
   order: 5
   tooltip: Clinical Trials and GCP
 ---
 
-# {% include icon.html icon="fa-solid fa-notes-medical" %}GCP
+# {% include icon.html icon="fa-solid fa-notes-medical" %}Clinical Trials / GCP
 
-## Clinical Trials & Good Clinical Practice
-
-Our laboratory conducts and participates in investigator-initiated and multicenter clinical studies, with a focus on innovative cellular and immune therapies for rheumatic and autoimmune diseases.
-
-This section presents clinical research on CAR-T cell therapy and T-cell engager (TCE) therapy. Study details and recruitment information will be added as they become available.
+本页面展示课题组开展或参与的风湿免疫相关临床研究项目，涵盖细胞治疗及 T 细胞衔接器等创新治疗方向。
 
 {% include section.html %}
 
-## Ongoing Trials
+{% assign trials = site.data.trials | sort: "sequence" %}
+{% assign product_types = trials | map: "product_type" | uniq %}
 
-{% assign ongoing_trials = site.trials | where_exp: "trial", "trial.status == 'Recruiting' or trial.status == 'Active, not recruiting' or trial.status == 'Not yet recruiting'" | sort: "title" %}
-{% if ongoing_trials.size > 0 %}
-<div class="trial-grid">
-{% for trial in ongoing_trials %}
-{% include trial-card.html trial=trial %}
-{% endfor %}
+<div class="trial-list" data-trial-list lang="zh-CN">
+  <div class="trial-filters" role="group" aria-label="按产品类型筛选" hidden>
+    <button type="button" class="button trial-filter" data-filter-all aria-pressed="true" aria-controls="trial-grid">All</button>
+    {% for product_type in product_types %}
+    <button type="button" class="button trial-filter" data-product-type="{{ product_type | escape }}" aria-pressed="false" aria-controls="trial-grid">{{ product_type | escape }}</button>
+    {% endfor %}
+  </div>
+  <div class="trial-grid" id="trial-grid">
+    {% for trial in trials %}
+    {% include trial-card.html trial=trial %}
+    {% endfor %}
+  </div>
 </div>
-{% else %}
-Details of ongoing studies will be published here when available.
-{% endif %}
-
-## Completed Trials
-
-{% assign completed_trials = site.trials | where: "status", "Completed" | sort: "title" %}
-{% if completed_trials.size > 0 %}
-<div class="trial-grid">
-{% for trial in completed_trials %}
-{% include trial-card.html trial=trial %}
-{% endfor %}
-</div>
-{% else %}
-Completed study information will be added when available.
-{% endif %}
-
-{% assign other_trials = site.trials | where_exp: "trial", "trial.status != 'Recruiting' and trial.status != 'Active, not recruiting' and trial.status != 'Not yet recruiting' and trial.status != 'Completed'" | sort: "title" %}
-{% if other_trials.size > 0 %}
-## Other Studies
-
-<div class="trial-grid">
-{% for trial in other_trials %}
-{% include trial-card.html trial=trial %}
-{% endfor %}
-</div>
-{% endif %}
-
-{% include section.html %}
-
-## Trial Information
-
-Each study page provides the available disease focus, therapy, study status, study type, study site, and registration information. Eligibility criteria and study contacts are listed when confirmed. Please refer to the individual study page for recruitment details.
