@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>{{ page.title | escape }}</h1>
+
+{% if page.status and page.status != "" %}
+<p class="trial-status"><span>{{ page.status | escape }}</span></p>
+{% endif %}
+
+{% include trial-fields.html trial=page %}
+
+{% include section.html %}
+
+{{ content }}
+
+<p><a href="{{ '/gcp/' | relative_url }}">{% include icon.html icon="fa-solid fa-arrow-left" %} All clinical trials</a></p>

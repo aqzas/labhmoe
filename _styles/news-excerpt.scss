@@ -1,0 +1,78 @@
+---
+---
+
+.news-excerpt {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--light-gray);
+  text-align: left;
+}
+
+.news-date {
+  display: flex;
+  flex: 0 0 88px;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--primary);
+  line-height: 1.2;
+}
+
+.news-day {
+  font-size: 2.5rem;
+  font-weight: var(--semi-bold);
+}
+
+.news-month {
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+}
+
+.news-text {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.news-title {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: var(--compact);
+  letter-spacing: normal;
+}
+
+.news-title a { text-decoration: none; }
+.news-title a:hover { text-decoration: underline; }
+
+.news-summary {
+  margin: 10px 0 0;
+  color: var(--dark-gray);
+  text-align: left;
+  line-height: var(--compact);
+}
+
+.news-text .tags { justify-content: flex-start; margin: 12px 0 0; }
+
+.news-image {
+  flex: 0 0 160px;
+  max-width: 100%;
+}
+
+.news-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--rounded);
+}
+
+.news-excerpt[data-compact] { padding: 18px 0; align-items: center; }
+.news-excerpt[data-compact] .news-day { font-size: 1.8rem; }
+
+@media (max-width: 600px) {
+  .news-excerpt,
+  .news-excerpt[data-compact] { flex-direction: column; align-items: stretch; gap: 14px; }
+  .news-date { flex-basis: auto; flex-direction: row; align-items: baseline; gap: 10px; }
+  .news-image { flex-basis: auto; width: 100%; }
+}

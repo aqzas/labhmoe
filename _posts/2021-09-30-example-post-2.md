@@ -1,5 +1,6 @@
 ---
 title: Example post 2
+published: false
 author: jane-smith
 ---
 

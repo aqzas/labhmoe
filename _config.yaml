@@ -30,6 +30,10 @@ defaults:
       type: "posts"
     values:
       layout: post
+  - scope:
+      type: "trials"
+    values:
+      layout: trial
 
 collections:
   # generate page for each member
@@ -38,6 +42,9 @@ collections:
   # generate page for each post
   posts:
     output: true
+  trials:
+    output: true
+    permalink: /gcp/:name/
 
 # jekyll plugins
 plugins:

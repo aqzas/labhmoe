@@ -1,0 +1,8 @@
+<article class="trial-card">
+  <h3><a href="{{ include.trial.url | relative_url }}">{{ include.trial.title | escape }}</a></h3>
+  {% if include.trial.status and include.trial.status != "" %}
+    <p class="trial-status"><span>{{ include.trial.status | escape }}</span></p>
+  {% endif %}
+  {% include trial-fields.html trial=include.trial %}
+  <a class="trial-details" href="{{ include.trial.url | relative_url }}" aria-label="View details: {{ include.trial.title | escape }}">View Details {% include icon.html icon="fa-solid fa-arrow-right" %}</a>
+</article>

@@ -84,3 +84,41 @@ dedicated to medical innovation.</em>
   title="Our Team"
   text=text
 %}
+
+{% capture text %}
+
+<em>Advancing innovative cellular and immune therapies through clinical studies and investigator-initiated trials.</em>
+
+{%
+  include button.html
+  link="gcp"
+  text="Explore clinical trials"
+  icon="fa-solid fa-arrow-right"
+  flip=true
+  style="bare"
+%}
+
+{% endcapture %}
+
+{% assign gcp_image = "images/home/gcp.jpg" | file_exists | default: "images/fallback.svg" %}
+{%
+  include feature.html
+  image=gcp_image
+  link="gcp"
+  title="Clinical Trials"
+  flip=true
+  text=text
+%}
+
+{% include section.html %}
+
+## Latest News
+
+{% assign latest_news = site.posts | sort: "date" | reverse %}
+{% for post in latest_news limit: 3 %}
+{% include news-excerpt.html post=post style="compact" %}
+{% else %}
+News and laboratory updates will be posted here.
+{% endfor %}
+
+{% include button.html link="news" text="View all news" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
