@@ -2,10 +2,25 @@
 layout: default
 ---
 
+{% if page.source %}
+{% include section.html %}
+{% else %}
 {% include section.html background=page.image %}
+{% endif %}
+
+{% if page.category %}<p class="news-category center">{{ page.category | escape }}</p>{% endif %}
 
 <h1 class="center">{{ page.title }}</h1>
 
+{% if page.subtitle %}<p class="news-subtitle center">{{ page.subtitle | escape }}</p>{% endif %}
+{% if page.source %}
+<p class="news-source center"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time><br>来源：{{ page.source | escape }}</p>
+{% endif %}
+
+{% if page.source %}
+{% if page.author %}<p class="news-byline center">{{ page.author | escape }}</p>{% endif %}
+{% include tags.html tags=page.tags link="news" %}
+{% else %}
 {%
   include post-info.html
   author=page.author
@@ -14,8 +29,13 @@ layout: default
   updated=page.last_modified_at
   tags=page.tags
 %}
+{% endif %}
 
 {% include section.html %}
+
+{% if page.source and page.image %}
+{% include figure.html image=page.image link=page.image caption=page.image_caption %}
+{% endif %}
 
 {{ content }}
 

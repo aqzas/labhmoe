@@ -15,6 +15,7 @@
     <span class="news-month">{{ news_item.date | date: "%b %Y" }}</span>
   </time>
   <div class="news-text">
+    {% if news_item.category %}<p class="news-category">{{ news_item.category | escape }}</p>{% endif %}
     <h3 class="news-title"><a href="{{ news_item.url | relative_url }}">{{ news_item.title | escape }}</a></h3>
     {% unless include.style == "compact" %}
       {% if news_summary != "" %}<p class="news-summary">{{ news_summary | escape }}</p>{% endif %}

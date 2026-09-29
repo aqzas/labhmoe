@@ -68,4 +68,3 @@ exclude:
   - LICENSE.md
   - CITATION.cff
   - docs
-  - 网站ClinicalTrials_GCP接入说明.md
