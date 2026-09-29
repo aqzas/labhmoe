@@ -47,6 +47,26 @@
   text-decoration: underline;
 }
 
+.news-category {
+  margin: 0 0 8px;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: var(--semi-bold);
+}
+
+.news-subtitle {
+  font-size: var(--large);
+}
+
+.news-source {
+  color: var(--dark-gray);
+}
+
+.news-byline {
+  color: var(--dark-gray);
+  overflow-wrap: anywhere;
+}
+
 .news-summary {
   margin: 10px 0 0;
   color: var(--dark-gray);
