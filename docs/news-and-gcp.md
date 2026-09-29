@@ -62,7 +62,7 @@ News 页面自动按时间展示新闻；首页自动展示最新三条。列表
 
 ## 图片与样式
 
-首页 Clinical Trials / GCP 模块优先使用 `images/home/gcp.jpg`，缺失时使用现有 `images/fallback.svg`。上传真实配图到该路径即可替换。
+首页 Clinical Trials / GCP 模块优先使用 `images/home/gcp.png`，缺失时使用现有 `images/fallback.svg`。上传真实配图到该路径即可替换。
 
 新闻组件为 `_includes/news-excerpt.html`，对应样式为 `_styles/news-excerpt.scss`。GCP 组件为 `_includes/trial-card.html`，对应样式为 `_styles/trial-card.scss`，筛选脚本为 `_scripts/trial-filter.js`。现有样式和脚本加载器自动加载这些文件，无需改写加载机制。
 

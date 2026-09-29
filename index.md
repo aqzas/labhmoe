@@ -100,7 +100,7 @@ dedicated to medical innovation.</em>
 
 {% endcapture %}
 
-{% assign gcp_image = "images/home/gcp.jpg" | file_exists | default: "images/fallback.svg" %}
+{% assign gcp_image = "images/home/gcp.png" | file_exists | default: "images/fallback.svg" %}
 {%
   include feature.html
   image=gcp_image
