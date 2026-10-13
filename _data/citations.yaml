@@ -562,7 +562,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: 10.1038/s41591-026-04572-7
-  title: 'A bispecific CD3×CD19 antibody for systemic lupus erythematosus: a phase 1 trial'
+  title: "A bispecific CD3\xD7CD19 antibody for systemic lupus erythematosus: a phase\
+    \ 1 trial"
   authors:
   - Jason Xu
   - Chunli Mei
@@ -602,6 +603,6 @@
   link: https://doi.org/10.1038/s41591-026-04572-7
   type: paper
   image: images/research/a319-sle-nature-medicine.png
-  description: Volume 32, pages 3372–3384 (2026)
+  description: "Volume 32, pages 3372\u20133384 (2026)"
   plugin: sources.py
   file: sources.yaml
