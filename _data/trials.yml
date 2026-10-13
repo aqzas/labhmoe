@@ -18,7 +18,7 @@
   product_type: "CAR-T"
   english_title: "A Phase I/IIa Clinical Study to Evaluate Universal Allogeneic CAR-T Cells Targeting CD19 and BCMA (QT-019B) in Patients with Refractory Systemic Lupus Erythematosus"
   registration_number: "CTR20254910"
-  registration_url: "https://www.chinadrugtrials.org.cn/index.html"
+  registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
 
 - id: trial-003
   sequence: 3
@@ -29,7 +29,7 @@
   product_type: "CAR-NK"
   english_title: "A Phase I Clinical Trial to Evaluate the Safety, Tolerability, and Preliminary Efficacy of KN5501 Cell Injection (KN5501) in Patients with Moderate-to-Severe Refractory Systemic Lupus Erythematosus (SLE)"
   registration_number: "CTR20255045"
-  registration_url: "https://www.chinadrugtrials.org.cn/index.html"
+  registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
 
 - id: trial-004
   sequence: 4
@@ -95,7 +95,7 @@
   product_type: "TCE"
   english_title: "A Phase Ib Clinical Study to Evaluate the Safety, Tolerability, Preliminary Efficacy, Pharmacokinetics, and Immunogenicity of F182112 in Patients with Systemic Lupus Erythematosus"
   registration_number: "CTR20253359"
-  registration_url: "https://www.chinadrugtrials.org.cn/index.html"
+  registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
 
 - id: trial-011
   sequence: 11
@@ -106,7 +106,7 @@
   product_type: "TCE"
   english_title: "A Dose-Escalation Clinical Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of MK-1045 in Participants with Systemic Lupus Erythematosus or Rheumatoid Arthritis"
   registration_number: "CTR20260744"
-  registration_url: "https://www.chinadrugtrials.org.cn/index.html"
+  registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
 
 - id: trial-012
   sequence: 12
@@ -117,7 +117,7 @@
   product_type: "TCE"
   english_title: "An Open-Label, Phase I Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AZD5492 Following Single Ascending and Step-Up Doses in Adult Participants with Systemic Lupus Erythematosus or Idiopathic Inflammatory Myopathies"
   registration_number: "CTR20252694"
-  registration_url: "https://www.chinadrugtrials.org.cn/index.html"
+  registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
 
 - id: trial-013
   sequence: 13
