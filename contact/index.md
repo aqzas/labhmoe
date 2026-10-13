@@ -14,7 +14,7 @@ nav:
 {% endcapture %}
 
 <div class="contact-intro" lang="zh-CN">
-  <img class="contact-intro__image" src="{{ 'images/contact/hust-campus.jpg' | relative_url }}" alt="华中科技大学校园" width="1080" height="1440">
+  <img class="contact-intro__image" {% include image-attributes.html image="images/contact/hust-campus.jpg" sizes="(max-width: 767px) 100vw, 280px" %} alt="华中科技大学校园" width="1080" height="1440" fetchpriority="high">
   <div class="contact-intro__text">{{ recruitment_intro | markdownify }}</div>
 </div>
 

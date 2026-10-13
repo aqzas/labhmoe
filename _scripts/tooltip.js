@@ -35,7 +35,7 @@
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
+  window.addEventListener("DOMContentLoaded", onLoad);
   // after tags load
   window.addEventListener("tagsfetched", onLoad);
 }

@@ -21,7 +21,7 @@
         aria-label="{{ title | default: "excerpt link" }}"
       >
         <img
-          src="{{ image | relative_url }}"
+          {% include image-attributes.html image=image sizes="(max-width: 800px) 100vw, 200px" %}
           alt="{{ title | default: "excerpt image" }}"
           loading="lazy"
           {% include fallback.html %}

@@ -1,10 +1,10 @@
 <!-- third party scripts -->
-<script src="https://unpkg.com/@popperjs/core@2" defer></script>
-<script src="https://unpkg.com/tippy.js@6" defer></script>
-<script src="https://unpkg.com/mark.js@8" defer></script>
+<script src="{{ 'assets/lib/popper-2.11.8.min.js' | relative_url }}" defer></script>
+<script src="{{ 'assets/lib/tippy-6.3.7.min.js' | relative_url }}" defer></script>
+<script src="{{ 'assets/lib/mark-8.11.1.min.js' | relative_url }}" defer></script>
 
 <!-- include all js in scripts folder -->
 {% assign scripts = site.static_files | where_exp: "file", "file.path contains '/_scripts'" %}
 {% for script in scripts %}
-  <script src="{{ script.path | relative_url }}"></script>
+  <script src="{{ script.path | relative_url }}"{% unless script.path contains 'dark-mode.js' %} defer{% endunless %}></script>
 {% endfor %}

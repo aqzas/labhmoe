@@ -19,3 +19,7 @@
   opacity: 0.5;
   z-index: -1;
 }
+
+@media (max-width: 767px) {
+  .background:before { background-image: var(--image-small, var(--image)); }
+}

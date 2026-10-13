@@ -1,0 +1,5 @@
+{%- assign background_asset = site.data.image_assets[include.image] -%}
+--image: url('{{ background_asset.src | default: include.image | relative_url }}');
+{%- if background_asset -%}
+--image-small: url('{{ background_asset.small | relative_url }}');
+{%- endif -%}

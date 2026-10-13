@@ -68,3 +68,4 @@ exclude:
   - LICENSE.md
   - CITATION.cff
   - docs
+  - tools

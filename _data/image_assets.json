@@ -1,0 +1,1670 @@
+{
+  "images/avatar/BianLeiYang.JPG": {
+    "src": "images/optimized/4512a59b179bb372-800.webp",
+    "small": "images/optimized/4512a59b179bb372-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/4512a59b179bb372-320.webp",
+        "width": 320,
+        "height": 355
+      },
+      {
+        "path": "images/optimized/4512a59b179bb372-640.webp",
+        "width": 640,
+        "height": 710
+      },
+      {
+        "path": "images/optimized/4512a59b179bb372-800.webp",
+        "width": 800,
+        "height": 888
+      }
+    ]
+  },
+  "images/avatar/caoyulin.JPG": {
+    "src": "images/optimized/5aeb35c9b6a076c9-800.webp",
+    "small": "images/optimized/5aeb35c9b6a076c9-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/5aeb35c9b6a076c9-320.webp",
+        "width": 320,
+        "height": 328
+      },
+      {
+        "path": "images/optimized/5aeb35c9b6a076c9-640.webp",
+        "width": 640,
+        "height": 657
+      },
+      {
+        "path": "images/optimized/5aeb35c9b6a076c9-800.webp",
+        "width": 800,
+        "height": 821
+      }
+    ]
+  },
+  "images/avatar/chensiyi.JPG": {
+    "src": "images/optimized/1c6f100bcb05accf-800.webp",
+    "small": "images/optimized/1c6f100bcb05accf-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/1c6f100bcb05accf-320.webp",
+        "width": 320,
+        "height": 284
+      },
+      {
+        "path": "images/optimized/1c6f100bcb05accf-640.webp",
+        "width": 640,
+        "height": 568
+      },
+      {
+        "path": "images/optimized/1c6f100bcb05accf-800.webp",
+        "width": 800,
+        "height": 711
+      }
+    ]
+  },
+  "images/avatar/chenwenlan.jpg": {
+    "src": "images/optimized/7d30c970346a9a95-362.webp",
+    "small": "images/optimized/7d30c970346a9a95-362.webp",
+    "variants": [
+      {
+        "path": "images/optimized/7d30c970346a9a95-320.webp",
+        "width": 320,
+        "height": 407
+      },
+      {
+        "path": "images/optimized/7d30c970346a9a95-362.webp",
+        "width": 362,
+        "height": 460
+      }
+    ]
+  },
+  "images/avatar/dengjingjing.jpg": {
+    "src": "images/optimized/e9afa54a370c49e1-800.webp",
+    "small": "images/optimized/e9afa54a370c49e1-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/e9afa54a370c49e1-320.webp",
+        "width": 320,
+        "height": 351
+      },
+      {
+        "path": "images/optimized/e9afa54a370c49e1-640.webp",
+        "width": 640,
+        "height": 703
+      },
+      {
+        "path": "images/optimized/e9afa54a370c49e1-800.webp",
+        "width": 800,
+        "height": 879
+      }
+    ]
+  },
+  "images/avatar/dengwenying.JPG": {
+    "src": "images/optimized/6ef0133b977cc1c9-800.webp",
+    "small": "images/optimized/6ef0133b977cc1c9-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/6ef0133b977cc1c9-320.webp",
+        "width": 320,
+        "height": 448
+      },
+      {
+        "path": "images/optimized/6ef0133b977cc1c9-640.webp",
+        "width": 640,
+        "height": 897
+      },
+      {
+        "path": "images/optimized/6ef0133b977cc1c9-800.webp",
+        "width": 800,
+        "height": 1121
+      }
+    ]
+  },
+  "images/avatar/guanxin.jpg": {
+    "src": "images/optimized/b997037d4cbe34fc-800.webp",
+    "small": "images/optimized/b997037d4cbe34fc-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/b997037d4cbe34fc-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/b997037d4cbe34fc-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "path": "images/optimized/b997037d4cbe34fc-800.webp",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "images/avatar/guojinqiang.jpg": {
+    "src": "images/optimized/710ad4e4169737c0-800.webp",
+    "small": "images/optimized/710ad4e4169737c0-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/710ad4e4169737c0-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "path": "images/optimized/710ad4e4169737c0-640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "path": "images/optimized/710ad4e4169737c0-800.webp",
+        "width": 800,
+        "height": 1067
+      }
+    ]
+  },
+  "images/avatar/huangfujing.jpg": {
+    "src": "images/optimized/fc100b5a1d73265f-800.webp",
+    "small": "images/optimized/fc100b5a1d73265f-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/fc100b5a1d73265f-320.webp",
+        "width": 320,
+        "height": 448
+      },
+      {
+        "path": "images/optimized/fc100b5a1d73265f-640.webp",
+        "width": 640,
+        "height": 896
+      },
+      {
+        "path": "images/optimized/fc100b5a1d73265f-800.webp",
+        "width": 800,
+        "height": 1121
+      }
+    ]
+  },
+  "images/avatar/huanghanqing.jpg": {
+    "src": "images/optimized/1de1c471e4d10496-800.webp",
+    "small": "images/optimized/1de1c471e4d10496-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/1de1c471e4d10496-320.webp",
+        "width": 320,
+        "height": 351
+      },
+      {
+        "path": "images/optimized/1de1c471e4d10496-640.webp",
+        "width": 640,
+        "height": 702
+      },
+      {
+        "path": "images/optimized/1de1c471e4d10496-800.webp",
+        "width": 800,
+        "height": 877
+      }
+    ]
+  },
+  "images/avatar/jiangwenxuan.JPG": {
+    "src": "images/optimized/b7f7115f2f21f751-471.webp",
+    "small": "images/optimized/b7f7115f2f21f751-471.webp",
+    "variants": [
+      {
+        "path": "images/optimized/b7f7115f2f21f751-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/b7f7115f2f21f751-471.webp",
+        "width": 471,
+        "height": 471
+      }
+    ]
+  },
+  "images/avatar/JingNaLi.JPG": {
+    "src": "images/optimized/29060380d6953278-597.webp",
+    "small": "images/optimized/29060380d6953278-597.webp",
+    "variants": [
+      {
+        "path": "images/optimized/29060380d6953278-320.webp",
+        "width": 320,
+        "height": 451
+      },
+      {
+        "path": "images/optimized/29060380d6953278-597.webp",
+        "width": 597,
+        "height": 841
+      }
+    ]
+  },
+  "images/avatar/lichenchen.jpg": {
+    "src": "images/optimized/fd4b46c86e2704da-460.webp",
+    "small": "images/optimized/fd4b46c86e2704da-460.webp",
+    "variants": [
+      {
+        "path": "images/optimized/fd4b46c86e2704da-320.webp",
+        "width": 320,
+        "height": 445
+      },
+      {
+        "path": "images/optimized/fd4b46c86e2704da-460.webp",
+        "width": 460,
+        "height": 639
+      }
+    ]
+  },
+  "images/avatar/liqiubai.jpg": {
+    "src": "images/optimized/f681b63b0cbcdfea-800.webp",
+    "small": "images/optimized/f681b63b0cbcdfea-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/f681b63b0cbcdfea-320.webp",
+        "width": 320,
+        "height": 215
+      },
+      {
+        "path": "images/optimized/f681b63b0cbcdfea-640.webp",
+        "width": 640,
+        "height": 430
+      },
+      {
+        "path": "images/optimized/f681b63b0cbcdfea-800.webp",
+        "width": 800,
+        "height": 537
+      }
+    ]
+  },
+  "images/avatar/liuxiaojing.jpg": {
+    "src": "images/optimized/c5deef468da3a614-800.webp",
+    "small": "images/optimized/c5deef468da3a614-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/c5deef468da3a614-320.webp",
+        "width": 320,
+        "height": 370
+      },
+      {
+        "path": "images/optimized/c5deef468da3a614-640.webp",
+        "width": 640,
+        "height": 740
+      },
+      {
+        "path": "images/optimized/c5deef468da3a614-800.webp",
+        "width": 800,
+        "height": 925
+      }
+    ]
+  },
+  "images/avatar/luyuxiang.jpg": {
+    "src": "images/optimized/5f34d2ab1a6adcac-800.webp",
+    "small": "images/optimized/5f34d2ab1a6adcac-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/5f34d2ab1a6adcac-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "path": "images/optimized/5f34d2ab1a6adcac-640.webp",
+        "width": 640,
+        "height": 854
+      },
+      {
+        "path": "images/optimized/5f34d2ab1a6adcac-800.webp",
+        "width": 800,
+        "height": 1067
+      }
+    ]
+  },
+  "images/avatar/qiyuchen.jpg": {
+    "src": "images/optimized/7103870f9c635396-800.webp",
+    "small": "images/optimized/7103870f9c635396-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/7103870f9c635396-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/7103870f9c635396-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "path": "images/optimized/7103870f9c635396-800.webp",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "images/avatar/quanguiqi.jpg": {
+    "src": "images/optimized/cbe7d9537a861ccc-525.webp",
+    "small": "images/optimized/cbe7d9537a861ccc-525.webp",
+    "variants": [
+      {
+        "path": "images/optimized/cbe7d9537a861ccc-320.webp",
+        "width": 320,
+        "height": 442
+      },
+      {
+        "path": "images/optimized/cbe7d9537a861ccc-525.webp",
+        "width": 525,
+        "height": 725
+      }
+    ]
+  },
+  "images/avatar/ShiXiongWei.JPG": {
+    "src": "images/optimized/18ab08eaf46c4621-800.webp",
+    "small": "images/optimized/18ab08eaf46c4621-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/18ab08eaf46c4621-320.webp",
+        "width": 320,
+        "height": 333
+      },
+      {
+        "path": "images/optimized/18ab08eaf46c4621-640.webp",
+        "width": 640,
+        "height": 665
+      },
+      {
+        "path": "images/optimized/18ab08eaf46c4621-800.webp",
+        "width": 800,
+        "height": 831
+      }
+    ]
+  },
+  "images/avatar/shuxin.jpg": {
+    "src": "images/optimized/057f6a22c0ad1d31-800.webp",
+    "small": "images/optimized/057f6a22c0ad1d31-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/057f6a22c0ad1d31-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "path": "images/optimized/057f6a22c0ad1d31-640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "path": "images/optimized/057f6a22c0ad1d31-800.webp",
+        "width": 800,
+        "height": 1067
+      }
+    ]
+  },
+  "images/avatar/wanganqi.jpg": {
+    "src": "images/optimized/625a189c64cfc013-800.webp",
+    "small": "images/optimized/625a189c64cfc013-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/625a189c64cfc013-320.webp",
+        "width": 320,
+        "height": 424
+      },
+      {
+        "path": "images/optimized/625a189c64cfc013-640.webp",
+        "width": 640,
+        "height": 848
+      },
+      {
+        "path": "images/optimized/625a189c64cfc013-800.webp",
+        "width": 800,
+        "height": 1060
+      }
+    ]
+  },
+  "images/avatar/wangkejing.jpg": {
+    "src": "images/optimized/37a4bc773cb1e61b-285.webp",
+    "small": "images/optimized/37a4bc773cb1e61b-285.webp",
+    "variants": [
+      {
+        "path": "images/optimized/37a4bc773cb1e61b-285.webp",
+        "width": 285,
+        "height": 431
+      }
+    ]
+  },
+  "images/avatar/wangshan.png": {
+    "src": "images/optimized/759534c847a0c782-800.webp",
+    "small": "images/optimized/759534c847a0c782-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/759534c847a0c782-320.webp",
+        "width": 320,
+        "height": 373
+      },
+      {
+        "path": "images/optimized/759534c847a0c782-640.webp",
+        "width": 640,
+        "height": 747
+      },
+      {
+        "path": "images/optimized/759534c847a0c782-800.webp",
+        "width": 800,
+        "height": 933
+      }
+    ]
+  },
+  "images/avatar/wangxinyu.jpg": {
+    "src": "images/optimized/39545d83d1ad35a7-800.webp",
+    "small": "images/optimized/39545d83d1ad35a7-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/39545d83d1ad35a7-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/39545d83d1ad35a7-640.webp",
+        "width": 640,
+        "height": 641
+      },
+      {
+        "path": "images/optimized/39545d83d1ad35a7-800.webp",
+        "width": 800,
+        "height": 801
+      }
+    ]
+  },
+  "images/avatar/wangzihan.jpg": {
+    "src": "images/optimized/fef4b34c563db2a7-787.webp",
+    "small": "images/optimized/fef4b34c563db2a7-787.webp",
+    "variants": [
+      {
+        "path": "images/optimized/fef4b34c563db2a7-320.webp",
+        "width": 320,
+        "height": 448
+      },
+      {
+        "path": "images/optimized/fef4b34c563db2a7-640.webp",
+        "width": 640,
+        "height": 896
+      },
+      {
+        "path": "images/optimized/fef4b34c563db2a7-787.webp",
+        "width": 787,
+        "height": 1102
+      }
+    ]
+  },
+  "images/avatar/wudi.JPG": {
+    "src": "images/optimized/7a2efb54c77ec195-600.webp",
+    "small": "images/optimized/7a2efb54c77ec195-600.webp",
+    "variants": [
+      {
+        "path": "images/optimized/7a2efb54c77ec195-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/7a2efb54c77ec195-600.webp",
+        "width": 600,
+        "height": 600
+      }
+    ]
+  },
+  "images/avatar/YaLiYu.JPG": {
+    "src": "images/optimized/28a104e80ddbe0a0-413.webp",
+    "small": "images/optimized/28a104e80ddbe0a0-413.webp",
+    "variants": [
+      {
+        "path": "images/optimized/28a104e80ddbe0a0-320.webp",
+        "width": 320,
+        "height": 449
+      },
+      {
+        "path": "images/optimized/28a104e80ddbe0a0-413.webp",
+        "width": 413,
+        "height": 579
+      }
+    ]
+  },
+  "images/avatar/YanChenLi.JPG": {
+    "src": "images/optimized/44e83ccf142e8eb1-356.webp",
+    "small": "images/optimized/44e83ccf142e8eb1-356.webp",
+    "variants": [
+      {
+        "path": "images/optimized/44e83ccf142e8eb1-320.webp",
+        "width": 320,
+        "height": 484
+      },
+      {
+        "path": "images/optimized/44e83ccf142e8eb1-356.webp",
+        "width": 356,
+        "height": 539
+      }
+    ]
+  },
+  "images/avatar/YaoHuaCai.JPG": {
+    "src": "images/optimized/83f5e7a8d6c4a45b-800.webp",
+    "small": "images/optimized/83f5e7a8d6c4a45b-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/83f5e7a8d6c4a45b-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/83f5e7a8d6c4a45b-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "path": "images/optimized/83f5e7a8d6c4a45b-800.webp",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "images/avatar/yinhaifeng.jpg": {
+    "src": "images/optimized/14d987ba80f962df-800.webp",
+    "small": "images/optimized/14d987ba80f962df-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/14d987ba80f962df-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/14d987ba80f962df-640.webp",
+        "width": 640,
+        "height": 641
+      },
+      {
+        "path": "images/optimized/14d987ba80f962df-800.webp",
+        "width": 800,
+        "height": 801
+      }
+    ]
+  },
+  "images/avatar/zhanganyuan.jpg": {
+    "src": "images/optimized/66fe13e0a07df10a-800.webp",
+    "small": "images/optimized/66fe13e0a07df10a-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/66fe13e0a07df10a-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/66fe13e0a07df10a-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "path": "images/optimized/66fe13e0a07df10a-800.webp",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "images/avatar/zhangjing.JPG": {
+    "src": "images/optimized/305c7cf796737163-800.webp",
+    "small": "images/optimized/305c7cf796737163-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/305c7cf796737163-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/305c7cf796737163-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "path": "images/optimized/305c7cf796737163-800.webp",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "images/avatar/zhanglinyue.jpg": {
+    "src": "images/optimized/48ef2cfaaab6d251-800.webp",
+    "small": "images/optimized/48ef2cfaaab6d251-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/48ef2cfaaab6d251-320.webp",
+        "width": 320,
+        "height": 373
+      },
+      {
+        "path": "images/optimized/48ef2cfaaab6d251-640.webp",
+        "width": 640,
+        "height": 746
+      },
+      {
+        "path": "images/optimized/48ef2cfaaab6d251-800.webp",
+        "width": 800,
+        "height": 933
+      }
+    ]
+  },
+  "images/avatar/ZhiChao Chen.jpg": {
+    "src": "images/optimized/6668ab688122483d-361.webp",
+    "small": "images/optimized/6668ab688122483d-361.webp",
+    "variants": [
+      {
+        "path": "images/optimized/6668ab688122483d-320.webp",
+        "width": 320,
+        "height": 429
+      },
+      {
+        "path": "images/optimized/6668ab688122483d-361.webp",
+        "width": 361,
+        "height": 484
+      }
+    ]
+  },
+  "images/avatar/zhongyi.jpg": {
+    "src": "images/optimized/519095404d2ac2f3-800.webp",
+    "small": "images/optimized/519095404d2ac2f3-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/519095404d2ac2f3-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "images/optimized/519095404d2ac2f3-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "images/optimized/519095404d2ac2f3-800.webp",
+        "width": 800,
+        "height": 533
+      }
+    ]
+  },
+  "images/contact/hust-campus.jpg": {
+    "src": "images/optimized/7add64a3b08b1ce5-1080.webp",
+    "small": "images/optimized/7add64a3b08b1ce5-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/7add64a3b08b1ce5-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "path": "images/optimized/7add64a3b08b1ce5-640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "path": "images/optimized/7add64a3b08b1ce5-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/optimized/7add64a3b08b1ce5-1080.webp",
+        "width": 1080,
+        "height": 1440
+      }
+    ]
+  },
+  "images/home/gcp.png": {
+    "src": "images/optimized/dd87402818034653-1448.webp",
+    "small": "images/optimized/dd87402818034653-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/dd87402818034653-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "path": "images/optimized/dd87402818034653-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "path": "images/optimized/dd87402818034653-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/optimized/dd87402818034653-1448.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    ]
+  },
+  "images/home/image1.jpg": {
+    "src": "images/optimized/93291d3003ca68c0-1920.webp",
+    "small": "images/optimized/93291d3003ca68c0-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/93291d3003ca68c0-320.webp",
+        "width": 320,
+        "height": 80
+      },
+      {
+        "path": "images/optimized/93291d3003ca68c0-640.webp",
+        "width": 640,
+        "height": 160
+      },
+      {
+        "path": "images/optimized/93291d3003ca68c0-960.webp",
+        "width": 960,
+        "height": 240
+      },
+      {
+        "path": "images/optimized/93291d3003ca68c0-1920.webp",
+        "width": 1920,
+        "height": 480
+      }
+    ]
+  },
+  "images/home/image2.JPG": {
+    "src": "images/optimized/7cbfe98bb9181d16-1920.webp",
+    "small": "images/optimized/7cbfe98bb9181d16-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/7cbfe98bb9181d16-320.webp",
+        "width": 320,
+        "height": 224
+      },
+      {
+        "path": "images/optimized/7cbfe98bb9181d16-640.webp",
+        "width": 640,
+        "height": 448
+      },
+      {
+        "path": "images/optimized/7cbfe98bb9181d16-960.webp",
+        "width": 960,
+        "height": 672
+      },
+      {
+        "path": "images/optimized/7cbfe98bb9181d16-1920.webp",
+        "width": 1920,
+        "height": 1343
+      }
+    ]
+  },
+  "images/home/projectimage.jpg": {
+    "src": "images/optimized/b7cc9f40b058686e-1079.webp",
+    "small": "images/optimized/b7cc9f40b058686e-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/b7cc9f40b058686e-320.webp",
+        "width": 320,
+        "height": 194
+      },
+      {
+        "path": "images/optimized/b7cc9f40b058686e-640.webp",
+        "width": 640,
+        "height": 388
+      },
+      {
+        "path": "images/optimized/b7cc9f40b058686e-960.webp",
+        "width": 960,
+        "height": 582
+      },
+      {
+        "path": "images/optimized/b7cc9f40b058686e-1079.webp",
+        "width": 1079,
+        "height": 654
+      }
+    ]
+  },
+  "images/home/researchimage.jpg": {
+    "src": "images/optimized/868bc5109d8d0b9d-714.webp",
+    "small": "images/optimized/868bc5109d8d0b9d-714.webp",
+    "variants": [
+      {
+        "path": "images/optimized/868bc5109d8d0b9d-320.webp",
+        "width": 320,
+        "height": 250
+      },
+      {
+        "path": "images/optimized/868bc5109d8d0b9d-640.webp",
+        "width": 640,
+        "height": 500
+      },
+      {
+        "path": "images/optimized/868bc5109d8d0b9d-714.webp",
+        "width": 714,
+        "height": 558
+      }
+    ]
+  },
+  "images/home/teamimage.png": {
+    "src": "images/optimized/3c50376c0250123a-1920.webp",
+    "small": "images/optimized/3c50376c0250123a-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/3c50376c0250123a-320.webp",
+        "width": 320,
+        "height": 251
+      },
+      {
+        "path": "images/optimized/3c50376c0250123a-640.webp",
+        "width": 640,
+        "height": 501
+      },
+      {
+        "path": "images/optimized/3c50376c0250123a-960.webp",
+        "width": 960,
+        "height": 752
+      },
+      {
+        "path": "images/optimized/3c50376c0250123a-1920.webp",
+        "width": 1920,
+        "height": 1504
+      }
+    ]
+  },
+  "images/icon.png": {
+    "src": "images/optimized/e4ea87269112078c-1920.webp",
+    "small": "images/optimized/e4ea87269112078c-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/e4ea87269112078c-320.webp",
+        "width": 320,
+        "height": 73
+      },
+      {
+        "path": "images/optimized/e4ea87269112078c-640.webp",
+        "width": 640,
+        "height": 147
+      },
+      {
+        "path": "images/optimized/e4ea87269112078c-960.webp",
+        "width": 960,
+        "height": 220
+      },
+      {
+        "path": "images/optimized/e4ea87269112078c-1920.webp",
+        "width": 1920,
+        "height": 441
+      }
+    ]
+  },
+  "images/news/2026-09-17-tce-sle-newspaper.png": {
+    "src": "images/optimized/069ed665195a996a-2287.webp",
+    "small": "images/optimized/069ed665195a996a-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/069ed665195a996a-320.webp",
+        "width": 320,
+        "height": 465
+      },
+      {
+        "path": "images/optimized/069ed665195a996a-640.webp",
+        "width": 640,
+        "height": 930
+      },
+      {
+        "path": "images/optimized/069ed665195a996a-960.webp",
+        "width": 960,
+        "height": 1395
+      },
+      {
+        "path": "images/optimized/069ed665195a996a-2287.webp",
+        "width": 2287,
+        "height": 3324
+      }
+    ]
+  },
+  "images/news/2026-09-17-tce-sle.jpg": {
+    "src": "images/optimized/2b6420e16e748d89-796.webp",
+    "small": "images/optimized/2b6420e16e748d89-796.webp",
+    "variants": [
+      {
+        "path": "images/optimized/2b6420e16e748d89-320.webp",
+        "width": 320,
+        "height": 124
+      },
+      {
+        "path": "images/optimized/2b6420e16e748d89-640.webp",
+        "width": 640,
+        "height": 248
+      },
+      {
+        "path": "images/optimized/2b6420e16e748d89-796.webp",
+        "width": 796,
+        "height": 308
+      }
+    ]
+  },
+  "images/photo.jpg": {
+    "src": "images/optimized/41baa09309e652c4-570.webp",
+    "small": "images/optimized/41baa09309e652c4-570.webp",
+    "variants": [
+      {
+        "path": "images/optimized/41baa09309e652c4-320.webp",
+        "width": 320,
+        "height": 220
+      },
+      {
+        "path": "images/optimized/41baa09309e652c4-570.webp",
+        "width": 570,
+        "height": 391
+      }
+    ]
+  },
+  "images/projects/aging.png": {
+    "src": "images/optimized/d7a78c18b962eb15-810.webp",
+    "small": "images/optimized/d7a78c18b962eb15-810.webp",
+    "variants": [
+      {
+        "path": "images/optimized/d7a78c18b962eb15-320.webp",
+        "width": 320,
+        "height": 383
+      },
+      {
+        "path": "images/optimized/d7a78c18b962eb15-640.webp",
+        "width": 640,
+        "height": 766
+      },
+      {
+        "path": "images/optimized/d7a78c18b962eb15-810.webp",
+        "width": 810,
+        "height": 970
+      }
+    ]
+  },
+  "images/projects/engineered-evs.jpg": {
+    "src": "images/optimized/868bc5109d8d0b9d-714.webp",
+    "small": "images/optimized/868bc5109d8d0b9d-714.webp",
+    "variants": [
+      {
+        "path": "images/optimized/868bc5109d8d0b9d-320.webp",
+        "width": 320,
+        "height": 250
+      },
+      {
+        "path": "images/optimized/868bc5109d8d0b9d-640.webp",
+        "width": 640,
+        "height": 500
+      },
+      {
+        "path": "images/optimized/868bc5109d8d0b9d-714.webp",
+        "width": 714,
+        "height": 558
+      }
+    ]
+  },
+  "images/projects/msc.png": {
+    "src": "images/optimized/50bf96281648fd8f-1920.webp",
+    "small": "images/optimized/50bf96281648fd8f-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/50bf96281648fd8f-320.webp",
+        "width": 320,
+        "height": 175
+      },
+      {
+        "path": "images/optimized/50bf96281648fd8f-640.webp",
+        "width": 640,
+        "height": 349
+      },
+      {
+        "path": "images/optimized/50bf96281648fd8f-960.webp",
+        "width": 960,
+        "height": 524
+      },
+      {
+        "path": "images/optimized/50bf96281648fd8f-1920.webp",
+        "width": 1920,
+        "height": 1047
+      }
+    ]
+  },
+  "images/projects/myeloma.png": {
+    "src": "images/optimized/3812764c06fa7968-1920.webp",
+    "small": "images/optimized/3812764c06fa7968-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/3812764c06fa7968-320.webp",
+        "width": 320,
+        "height": 224
+      },
+      {
+        "path": "images/optimized/3812764c06fa7968-640.webp",
+        "width": 640,
+        "height": 448
+      },
+      {
+        "path": "images/optimized/3812764c06fa7968-960.webp",
+        "width": 960,
+        "height": 672
+      },
+      {
+        "path": "images/optimized/3812764c06fa7968-1920.webp",
+        "width": 1920,
+        "height": 1344
+      }
+    ]
+  },
+  "images/projects/translation.png": {
+    "src": "images/optimized/42be46c98e57f755-962.webp",
+    "small": "images/optimized/42be46c98e57f755-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/42be46c98e57f755-320.webp",
+        "width": 320,
+        "height": 380
+      },
+      {
+        "path": "images/optimized/42be46c98e57f755-640.webp",
+        "width": 640,
+        "height": 760
+      },
+      {
+        "path": "images/optimized/42be46c98e57f755-960.webp",
+        "width": 960,
+        "height": 1140
+      },
+      {
+        "path": "images/optimized/42be46c98e57f755-962.webp",
+        "width": 962,
+        "height": 1142
+      }
+    ]
+  },
+  "images/research/a319-sle-nature-medicine.png": {
+    "src": "images/optimized/e9455a7e1348016c-920.webp",
+    "small": "images/optimized/e9455a7e1348016c-920.webp",
+    "variants": [
+      {
+        "path": "images/optimized/e9455a7e1348016c-320.webp",
+        "width": 320,
+        "height": 221
+      },
+      {
+        "path": "images/optimized/e9455a7e1348016c-640.webp",
+        "width": 640,
+        "height": 441
+      },
+      {
+        "path": "images/optimized/e9455a7e1348016c-920.webp",
+        "width": 920,
+        "height": 634
+      }
+    ]
+  },
+  "images/research/adam17-multiple-myeloma.jpg": {
+    "src": "images/optimized/76f904316771d14e-708.webp",
+    "small": "images/optimized/76f904316771d14e-708.webp",
+    "variants": [
+      {
+        "path": "images/optimized/76f904316771d14e-320.webp",
+        "width": 320,
+        "height": 347
+      },
+      {
+        "path": "images/optimized/76f904316771d14e-640.webp",
+        "width": 640,
+        "height": 694
+      },
+      {
+        "path": "images/optimized/76f904316771d14e-708.webp",
+        "width": 708,
+        "height": 768
+      }
+    ]
+  },
+  "images/research/bcr-abl1-microvesicles.jpg": {
+    "src": "images/optimized/e32c5b796c540cbe-400.webp",
+    "small": "images/optimized/e32c5b796c540cbe-400.webp",
+    "variants": [
+      {
+        "path": "images/optimized/e32c5b796c540cbe-320.webp",
+        "width": 320,
+        "height": 312
+      },
+      {
+        "path": "images/optimized/e32c5b796c540cbe-400.webp",
+        "width": 400,
+        "height": 390
+      }
+    ]
+  },
+  "images/research/cd34-expansion.png": {
+    "src": "images/optimized/a1a71d54b619f72f-446.webp",
+    "small": "images/optimized/a1a71d54b619f72f-446.webp",
+    "variants": [
+      {
+        "path": "images/optimized/a1a71d54b619f72f-320.webp",
+        "width": 320,
+        "height": 359
+      },
+      {
+        "path": "images/optimized/a1a71d54b619f72f-446.webp",
+        "width": 446,
+        "height": 500
+      }
+    ]
+  },
+  "images/research/cytarabine-vitamin-d3.png": {
+    "src": "images/optimized/cbcbbe7190331043-1128.webp",
+    "small": "images/optimized/cbcbbe7190331043-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/cbcbbe7190331043-320.webp",
+        "width": 320,
+        "height": 166
+      },
+      {
+        "path": "images/optimized/cbcbbe7190331043-640.webp",
+        "width": 640,
+        "height": 331
+      },
+      {
+        "path": "images/optimized/cbcbbe7190331043-960.webp",
+        "width": 960,
+        "height": 497
+      },
+      {
+        "path": "images/optimized/cbcbbe7190331043-1128.webp",
+        "width": 1128,
+        "height": 584
+      }
+    ]
+  },
+  "images/research/cytohesin-1-aml.png": {
+    "src": "images/optimized/787f7641005c93db-676.webp",
+    "small": "images/optimized/787f7641005c93db-676.webp",
+    "variants": [
+      {
+        "path": "images/optimized/787f7641005c93db-320.webp",
+        "width": 320,
+        "height": 224
+      },
+      {
+        "path": "images/optimized/787f7641005c93db-640.webp",
+        "width": 640,
+        "height": 448
+      },
+      {
+        "path": "images/optimized/787f7641005c93db-676.webp",
+        "width": 676,
+        "height": 473
+      }
+    ]
+  },
+  "images/research/dbm-scaffolds.jpg": {
+    "src": "images/optimized/07ef67fc29550def-685.webp",
+    "small": "images/optimized/07ef67fc29550def-685.webp",
+    "variants": [
+      {
+        "path": "images/optimized/07ef67fc29550def-320.webp",
+        "width": 320,
+        "height": 216
+      },
+      {
+        "path": "images/optimized/07ef67fc29550def-640.webp",
+        "width": 640,
+        "height": 432
+      },
+      {
+        "path": "images/optimized/07ef67fc29550def-685.webp",
+        "width": 685,
+        "height": 462
+      }
+    ]
+  },
+  "images/research/engineered-evs-pulmonary-fibrosis.jpg": {
+    "src": "images/optimized/3e289b8711451bb0-714.webp",
+    "small": "images/optimized/3e289b8711451bb0-714.webp",
+    "variants": [
+      {
+        "path": "images/optimized/3e289b8711451bb0-320.webp",
+        "width": 320,
+        "height": 250
+      },
+      {
+        "path": "images/optimized/3e289b8711451bb0-640.webp",
+        "width": 640,
+        "height": 500
+      },
+      {
+        "path": "images/optimized/3e289b8711451bb0-714.webp",
+        "width": 714,
+        "height": 558
+      }
+    ]
+  },
+  "images/research/ev-review.jpg": {
+    "src": "images/optimized/e0b1cdef4a10e578-753.webp",
+    "small": "images/optimized/e0b1cdef4a10e578-753.webp",
+    "variants": [
+      {
+        "path": "images/optimized/e0b1cdef4a10e578-320.webp",
+        "width": 320,
+        "height": 249
+      },
+      {
+        "path": "images/optimized/e0b1cdef4a10e578-640.webp",
+        "width": 640,
+        "height": 498
+      },
+      {
+        "path": "images/optimized/e0b1cdef4a10e578-753.webp",
+        "width": 753,
+        "height": 586
+      }
+    ]
+  },
+  "images/research/evmirna.jpeg": {
+    "src": "images/optimized/568c7b46c71883a3-520.webp",
+    "small": "images/optimized/568c7b46c71883a3-520.webp",
+    "variants": [
+      {
+        "path": "images/optimized/568c7b46c71883a3-320.webp",
+        "width": 320,
+        "height": 186
+      },
+      {
+        "path": "images/optimized/568c7b46c71883a3-520.webp",
+        "width": 520,
+        "height": 303
+      }
+    ]
+  },
+  "images/research/hk2-apoptosis.jpg": {
+    "src": "images/optimized/13c8363fe75a0674-550.webp",
+    "small": "images/optimized/13c8363fe75a0674-550.webp",
+    "variants": [
+      {
+        "path": "images/optimized/13c8363fe75a0674-320.webp",
+        "width": 320,
+        "height": 317
+      },
+      {
+        "path": "images/optimized/13c8363fe75a0674-550.webp",
+        "width": 550,
+        "height": 545
+      }
+    ]
+  },
+  "images/research/kit-mutations-aml.png": {
+    "src": "images/optimized/f07e20940f6d6dbe-320.webp",
+    "small": "images/optimized/f07e20940f6d6dbe-320.webp",
+    "variants": [
+      {
+        "path": "images/optimized/f07e20940f6d6dbe-320.webp",
+        "width": 320,
+        "height": 300
+      }
+    ]
+  },
+  "images/research/lethal-pulmonary-thromboembolism.png": {
+    "src": "images/optimized/b22952e67b0d6fac-685.webp",
+    "small": "images/optimized/b22952e67b0d6fac-685.webp",
+    "variants": [
+      {
+        "path": "images/optimized/b22952e67b0d6fac-320.webp",
+        "width": 320,
+        "height": 179
+      },
+      {
+        "path": "images/optimized/b22952e67b0d6fac-640.webp",
+        "width": 640,
+        "height": 359
+      },
+      {
+        "path": "images/optimized/b22952e67b0d6fac-685.webp",
+        "width": 685,
+        "height": 384
+      }
+    ]
+  },
+  "images/research/microneedles-plasmacytoma.jpg": {
+    "src": "images/optimized/1fc6437b5100f2ff-848.webp",
+    "small": "images/optimized/1fc6437b5100f2ff-848.webp",
+    "variants": [
+      {
+        "path": "images/optimized/1fc6437b5100f2ff-320.webp",
+        "width": 320,
+        "height": 189
+      },
+      {
+        "path": "images/optimized/1fc6437b5100f2ff-640.webp",
+        "width": 640,
+        "height": 379
+      },
+      {
+        "path": "images/optimized/1fc6437b5100f2ff-848.webp",
+        "width": 848,
+        "height": 502
+      }
+    ]
+  },
+  "images/research/myeloma-angiogenesis.jpg": {
+    "src": "images/optimized/40b46fe00f3ee481-400.webp",
+    "small": "images/optimized/40b46fe00f3ee481-400.webp",
+    "variants": [
+      {
+        "path": "images/optimized/40b46fe00f3ee481-320.webp",
+        "width": 320,
+        "height": 601
+      },
+      {
+        "path": "images/optimized/40b46fe00f3ee481-400.webp",
+        "width": 400,
+        "height": 751
+      }
+    ]
+  },
+  "images/research/myeloma-bone-disease.jpg": {
+    "src": "images/optimized/c4230a77a12b5788-600.webp",
+    "small": "images/optimized/c4230a77a12b5788-600.webp",
+    "variants": [
+      {
+        "path": "images/optimized/c4230a77a12b5788-320.webp",
+        "width": 320,
+        "height": 145
+      },
+      {
+        "path": "images/optimized/c4230a77a12b5788-600.webp",
+        "width": 600,
+        "height": 272
+      }
+    ]
+  },
+  "images/research/pcna-rejuvenate.png": {
+    "src": "images/optimized/54b8b5475f5d8116-792.webp",
+    "small": "images/optimized/54b8b5475f5d8116-792.webp",
+    "variants": [
+      {
+        "path": "images/optimized/54b8b5475f5d8116-320.webp",
+        "width": 320,
+        "height": 227
+      },
+      {
+        "path": "images/optimized/54b8b5475f5d8116-640.webp",
+        "width": 640,
+        "height": 454
+      },
+      {
+        "path": "images/optimized/54b8b5475f5d8116-792.webp",
+        "width": 792,
+        "height": 562
+      }
+    ]
+  },
+  "images/research/procoagulant-properties.jpeg": {
+    "src": "images/optimized/bca1a8d440d4bdd6-473.webp",
+    "small": "images/optimized/bca1a8d440d4bdd6-473.webp",
+    "variants": [
+      {
+        "path": "images/optimized/bca1a8d440d4bdd6-320.webp",
+        "width": 320,
+        "height": 291
+      },
+      {
+        "path": "images/optimized/bca1a8d440d4bdd6-473.webp",
+        "width": 473,
+        "height": 430
+      }
+    ]
+  },
+  "images/research/rapamycin-senescent-msc.png": {
+    "src": "images/optimized/dde5b7634b7758ee-685.webp",
+    "small": "images/optimized/dde5b7634b7758ee-685.webp",
+    "variants": [
+      {
+        "path": "images/optimized/dde5b7634b7758ee-320.webp",
+        "width": 320,
+        "height": 321
+      },
+      {
+        "path": "images/optimized/dde5b7634b7758ee-640.webp",
+        "width": 640,
+        "height": 643
+      },
+      {
+        "path": "images/optimized/dde5b7634b7758ee-685.webp",
+        "width": 685,
+        "height": 688
+      }
+    ]
+  },
+  "images/research/rnf2-doxorubicin-cardiotoxicity.png": {
+    "src": "images/optimized/40e0e78e9f031197-718.webp",
+    "small": "images/optimized/40e0e78e9f031197-718.webp",
+    "variants": [
+      {
+        "path": "images/optimized/40e0e78e9f031197-320.webp",
+        "width": 320,
+        "height": 200
+      },
+      {
+        "path": "images/optimized/40e0e78e9f031197-640.webp",
+        "width": 640,
+        "height": 399
+      },
+      {
+        "path": "images/optimized/40e0e78e9f031197-718.webp",
+        "width": 718,
+        "height": 448
+      }
+    ]
+  },
+  "images/research/senescence-biomarkers.jpg": {
+    "src": "images/optimized/dc2d41a14c730acd-600.webp",
+    "small": "images/optimized/dc2d41a14c730acd-600.webp",
+    "variants": [
+      {
+        "path": "images/optimized/dc2d41a14c730acd-320.webp",
+        "width": 320,
+        "height": 158
+      },
+      {
+        "path": "images/optimized/dc2d41a14c730acd-600.webp",
+        "width": 600,
+        "height": 297
+      }
+    ]
+  },
+  "images/research/serum-deprivation-microvesicles.jpg": {
+    "src": "images/optimized/cb61d885be9ffcc5-320.webp",
+    "small": "images/optimized/cb61d885be9ffcc5-320.webp",
+    "variants": [
+      {
+        "path": "images/optimized/cb61d885be9ffcc5-320.webp",
+        "width": 320,
+        "height": 206
+      }
+    ]
+  },
+  "images/research/six-membrane-protein-score.jpeg": {
+    "src": "images/optimized/5d27bca289db9204-578.webp",
+    "small": "images/optimized/5d27bca289db9204-578.webp",
+    "variants": [
+      {
+        "path": "images/optimized/5d27bca289db9204-320.webp",
+        "width": 320,
+        "height": 316
+      },
+      {
+        "path": "images/optimized/5d27bca289db9204-578.webp",
+        "width": 578,
+        "height": 570
+      }
+    ]
+  },
+  "images/research/stab1-aml.jpg": {
+    "src": "images/optimized/f5d9a3ca0e217eab-767.webp",
+    "small": "images/optimized/f5d9a3ca0e217eab-767.webp",
+    "variants": [
+      {
+        "path": "images/optimized/f5d9a3ca0e217eab-320.webp",
+        "width": 320,
+        "height": 187
+      },
+      {
+        "path": "images/optimized/f5d9a3ca0e217eab-640.webp",
+        "width": 640,
+        "height": 374
+      },
+      {
+        "path": "images/optimized/f5d9a3ca0e217eab-767.webp",
+        "width": 767,
+        "height": 448
+      }
+    ]
+  },
+  "images/research/tcrdb.jpeg": {
+    "src": "images/optimized/81d7ca8a6205e660-520.webp",
+    "small": "images/optimized/81d7ca8a6205e660-520.webp",
+    "variants": [
+      {
+        "path": "images/optimized/81d7ca8a6205e660-320.webp",
+        "width": 320,
+        "height": 255
+      },
+      {
+        "path": "images/optimized/81d7ca8a6205e660-520.webp",
+        "width": 520,
+        "height": 415
+      }
+    ]
+  },
+  "images/research/tumor-cell-derived-evs-myeloma-review.jpg": {
+    "src": "images/optimized/133e9db3288e9412-760.webp",
+    "small": "images/optimized/133e9db3288e9412-760.webp",
+    "variants": [
+      {
+        "path": "images/optimized/133e9db3288e9412-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "path": "images/optimized/133e9db3288e9412-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "path": "images/optimized/133e9db3288e9412-760.webp",
+        "width": 760,
+        "height": 570
+      }
+    ]
+  },
+  "images/research/umbilical-cord-msc-ev-aging.jpg": {
+    "src": "images/optimized/e28d82ac56fd597c-550.webp",
+    "small": "images/optimized/e28d82ac56fd597c-550.webp",
+    "variants": [
+      {
+        "path": "images/optimized/e28d82ac56fd597c-320.webp",
+        "width": 320,
+        "height": 198
+      },
+      {
+        "path": "images/optimized/e28d82ac56fd597c-550.webp",
+        "width": 550,
+        "height": 340
+      }
+    ]
+  },
+  "images/share.jpg": {
+    "src": "images/optimized/95e793e442f32bd2-1000.webp",
+    "small": "images/optimized/95e793e442f32bd2-960.webp",
+    "variants": [
+      {
+        "path": "images/optimized/95e793e442f32bd2-320.webp",
+        "width": 320,
+        "height": 160
+      },
+      {
+        "path": "images/optimized/95e793e442f32bd2-640.webp",
+        "width": 640,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/95e793e442f32bd2-960.webp",
+        "width": 960,
+        "height": 480
+      },
+      {
+        "path": "images/optimized/95e793e442f32bd2-1000.webp",
+        "width": 1000,
+        "height": 500
+      }
+    ]
+  },
+  "avatar/chensiyi.JPG": {
+    "src": "images/optimized/1c6f100bcb05accf-800.webp",
+    "small": "images/optimized/1c6f100bcb05accf-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/1c6f100bcb05accf-320.webp",
+        "width": 320,
+        "height": 284
+      },
+      {
+        "path": "images/optimized/1c6f100bcb05accf-640.webp",
+        "width": 640,
+        "height": 568
+      },
+      {
+        "path": "images/optimized/1c6f100bcb05accf-800.webp",
+        "width": 800,
+        "height": 711
+      }
+    ]
+  },
+  "avatar/dengwenying.JPG": {
+    "src": "images/optimized/41db8418db258145-800.webp",
+    "small": "images/optimized/41db8418db258145-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/41db8418db258145-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/41db8418db258145-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "path": "images/optimized/41db8418db258145-800.webp",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  },
+  "avatar/jiangwenxuan.JPG": {
+    "src": "images/optimized/b7f7115f2f21f751-471.webp",
+    "small": "images/optimized/b7f7115f2f21f751-471.webp",
+    "variants": [
+      {
+        "path": "images/optimized/b7f7115f2f21f751-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/b7f7115f2f21f751-471.webp",
+        "width": 471,
+        "height": 471
+      }
+    ]
+  },
+  "avatar/zhangjing.JPG": {
+    "src": "images/optimized/305c7cf796737163-800.webp",
+    "small": "images/optimized/305c7cf796737163-800.webp",
+    "variants": [
+      {
+        "path": "images/optimized/305c7cf796737163-320.webp",
+        "width": 320,
+        "height": 320
+      },
+      {
+        "path": "images/optimized/305c7cf796737163-640.webp",
+        "width": 640,
+        "height": 640
+      },
+      {
+        "path": "images/optimized/305c7cf796737163-800.webp",
+        "width": 800,
+        "height": 800
+      }
+    ]
+  }
+}

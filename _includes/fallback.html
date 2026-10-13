@@ -1,1 +1,1 @@
-onerror="this.src = '{{ "images/fallback.svg" | relative_url }}'; this.onerror = null;"
+onerror="this.onerror = null; this.removeAttribute('srcset'); this.src = '{{ "images/fallback.svg" | relative_url }}';"

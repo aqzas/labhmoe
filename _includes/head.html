@@ -2,6 +2,12 @@
   {% include analytics.html %}
   {% include verification.html %}
   {% include meta.html %}
+  {% assign header_image = page.header | default: site.header %}
+  {% assign header_asset = site.data.image_assets[header_image] %}
+  {% if header_asset %}
+  <link rel="preload" as="image" href="{{ header_asset.small | relative_url }}" media="(max-width: 767px)" fetchpriority="high">
+  <link rel="preload" as="image" href="{{ header_asset.src | relative_url }}" media="(min-width: 768px)" fetchpriority="high">
+  {% endif %}
   {% include fonts.html %}
   {% include styles.html %}
   {% include scripts.html %}

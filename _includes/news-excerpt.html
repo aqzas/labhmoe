@@ -24,7 +24,7 @@
   </div>
   {% if news_item.image and news_item.image != "" and include.style != "compact" %}
     <a class="news-image" href="{{ news_item.url | relative_url }}" aria-label="{{ news_item.title | escape }}">
-      <img src="{{ news_item.image | relative_url }}" alt="{{ news_item.title | escape }}" loading="lazy" {% include fallback.html %}>
+      <img {% include image-attributes.html image=news_item.image sizes="(max-width: 800px) 100vw, 200px" %} alt="{{ news_item.title | escape }}" loading="lazy" {% include fallback.html %}>
     </a>
   {% endif %}
 </article>

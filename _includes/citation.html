@@ -19,7 +19,7 @@
         aria-label="{{ citation.title | default: "citation link" }}"
       >
         <img
-          src="{{ citation.image | relative_url }}"
+          {% include image-attributes.html image=citation.image sizes="(max-width: 800px) 100vw, 180px" %}
           alt="{{ citation.title | default: "citation image" }}"
           loading="lazy"
           {% include fallback.html %}

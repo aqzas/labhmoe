@@ -24,7 +24,7 @@
       data-dark="{{ dark }}"
     {% endif %}
     {% if background %}
-      style="--image: url('{{ background | relative_url }}')"
+      style="{% include background-image.html image=background %}"
     {% endif %}
   >
     {{ section }}

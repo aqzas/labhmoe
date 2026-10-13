@@ -23,7 +23,7 @@
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url }}"
+      {% include image-attributes.html image=member.image sizes="200px" %}
       class="portrait-image"
       alt="member portrait"
       loading="lazy"

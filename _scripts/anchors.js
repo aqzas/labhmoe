@@ -38,7 +38,7 @@
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
+  window.addEventListener("DOMContentLoaded", onLoad);
   window.addEventListener("load", scrollToTarget);
   window.addEventListener("tagsfetched", scrollToTarget);
 

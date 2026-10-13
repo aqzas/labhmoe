@@ -7,6 +7,7 @@
   const onLoad = async () => {
     // get tag rows with specified repos
     const rows = document.querySelectorAll("[data-repo]");
+    if (!rows.length) return;
 
     // for each repo
     for (const row of rows) {
@@ -43,7 +44,7 @@
   };
 
   // after page loads
-  window.addEventListener("load", onLoad);
+  window.addEventListener("DOMContentLoaded", onLoad);
 
   // GitHub topics endpoint
   const api = "https://api.github.com/repos/REPO/topics";
