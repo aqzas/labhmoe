@@ -22,3 +22,13 @@ Latest news, academic activities, conferences, visits, awards, and laboratory up
 {% else %}
 News and laboratory updates will be posted here.
 {% endif %}
+
+{% include section.html %}
+
+## 微信文章
+
+<ul>
+  <li><a href="https://mp.weixin.qq.com/s/NUg177wCw1R9iMrAW3cCzA" target="_blank" rel="noopener noreferrer">微信文章 1</a></li>
+  <li><a href="https://mp.weixin.qq.com/s/9rmJSlJ1EAgnqmMTMvJ1eg" target="_blank" rel="noopener noreferrer">微信文章 2</a></li>
+  <li><a href="https://mp.weixin.qq.com/s/Bg9SPEj_QI0vKhZz8R3PHw" target="_blank" rel="noopener noreferrer">微信文章 3</a></li>
+</ul>

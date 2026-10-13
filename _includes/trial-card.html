@@ -4,7 +4,16 @@
     <span class="trial-card__phase" aria-label="临床分期">{{ include.trial.phase | escape }}</span>
   </div>
   <h2 class="trial-card__title" id="{{ include.trial.id | escape }}-title">{{ include.trial.title | escape }}</h2>
+  {% if include.trial.english_title %}
+  <p class="trial-card__english-title" lang="en">{{ include.trial.english_title | escape }}</p>
+  {% endif %}
   <dl class="trial-card__fields">
+    {% if include.trial.registration_number and include.trial.registration_url %}
+    <div>
+      <dt>注册号</dt>
+      <dd><a class="trial-card__registration" href="{{ include.trial.registration_url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.trial.registration_number | escape }}</a></dd>
+    </div>
+    {% endif %}
     <div>
       <dt>适应症</dt>
       <dd class="trial-card__indication">{{ include.trial.indication | escape }}</dd>

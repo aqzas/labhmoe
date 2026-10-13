@@ -26,7 +26,9 @@ published: false
 
 核对标题、日期、正文及图片后，将 `published` 改为 `true`。不要使用未来日期，否则 Jekyll 默认不会发布。`image`、`author`、`tags` 均可省略；不提供图片时按纯文字列表展示。有图片时可新建 `images/news/` 并填写准确路径。已有三篇 `example-post` 保留为 `published: false` 的模板，不在正式站点展示。
 
-News 页面自动按时间展示新闻；首页自动展示最新三条。列表支持 `<!-- excerpt start -->` 和 `<!-- excerpt end -->` 之间的摘要，未提供时使用 Jekyll 默认摘要。新闻详情保留现有 post 布局。列表搜索支持标题、正文、作者和标签。
+News 页面自动按时间展示新闻；首页在 UNIONCELL LAB 下方的第一个内容板块展示 News，目前按 `slug: tce-sle` 仅选取现有 Nature Medicine 报道。列表支持 `<!-- excerpt start -->` 和 `<!-- excerpt end -->` 之间的摘要，未提供时使用 Jekyll 默认摘要。新闻详情保留现有 post 布局。列表搜索支持标题、正文、作者和标签。
+
+2026-10-08 资料包中的三个微信链接位于 News 页的「微信文章」区域，不加入首页。微信访问验证导致无法读取标题，暂用「微信文章 1 / 2 / 3」标识，待获得准确标题后替换链接文字。
 
 ## 新增临床试验
 
@@ -40,6 +42,9 @@ News 页面自动按时间展示新闻；首页自动展示最新三条。列表
   intervention: "粘贴来源中的药物干预手段原文"
   phase: "粘贴来源中的临床分期原文"
   product_type: "粘贴来源中的产品类型原文"
+  english_title: "粘贴来源中的临床试验英文名"
+  registration_number: "粘贴来源中的注册号"
+  registration_url: "粘贴来源中的登记平台链接"
 ```
 
 `14` 仅用于演示，新增时使用数据源中的实际序号，并为 `id` 选择唯一值。页面按 `sequence` 升序展示，不重编号，原数据缺失序号 5 的情况予以保留。
@@ -53,12 +58,21 @@ News 页面自动按时间展示新闻；首页自动展示最新三条。列表
 | `intervention` | Excel「药物干预手段」原文 |
 | `phase` | Excel「临床分期」原文，不拆分为研究类型和分期 |
 | `product_type` | Excel「产品类型」原文 |
+| `english_title` | CSV「临床试验英文名」，显示在中文标题下方 |
+| `registration_number` | CSV「注册号」，作为链接文字 |
+| `registration_url` | CSV「超链接」，新标签页打开 |
 
-本次初始数据逐字提取自 `网站ClinicalTrials_GCP接入说明.md` 的完整 YAML 数据段；实施时项目内未找到说明提及的原始 Excel，未进行 Excel 文件的独立核对。
+初始数据逐字提取自原接入说明。2026-10-13 根据 `课题组网页更新资料包_2026-10-08` 补充三个字段，并与其中的原始 Excel 核对。新增字段使用技术导入 CSV，保留原有七个字段。CSV 已清除 Excel 英文名中的零宽字符及部分注册号、链接末尾的空格。
 
 产品类型筛选按钮从数据自动生成，保持原文。新增类型无需修改 HTML 或 JavaScript。筛选使用原生 JavaScript；禁用 JavaScript 时仍可阅读全部项目。
 
-不添加招募状态、PI、注册号或来源中没有的其他字段，不生成独立详情页，不显示项目数量。上一版 `_trials` collection、示例和详情组件已移除。本次不修改 News 的数据结构与展示逻辑。
+不添加招募状态、PI 或来源中没有的其他字段，不生成独立详情页，不显示项目数量。上一版 `_trials` collection、示例和详情组件已移除。当前有 7 个 NCT 注册号指向试验详情页，5 个 CTR 注册号按资料包指向中国药物临床试验登记平台首页，需使用注册号检索。
+
+## 招聘与重点论文
+
+Contact 正文来自资料包中的招聘 Word，保留全部分段、标题层级和编号列表，邮箱使用 `mailto:` 链接。校园图为 `images/contact/hust-campus.jpg`，原尺寸 1080 × 1440，替代文字为「华中科技大学校园」。桌面端图片位于介绍文字左侧，手机端上下排列。
+
+Research 的 Highlighted 按 DOI `10.1038/s41591-026-04572-7` 展示 Nature Medicine 论文；TCRdb 继续保留在 All / 2020。元数据写入 `_data/sources.yaml`，并同步至构建使用的 `_data/citations.yaml`，后续自动生成引用时会保留 sources 中的人工元数据。标题、33 位作者、期刊、2026-09-10 日期、卷页和 DOI 均采用实施说明；PDF 是校样，首页发表日期尚为占位符。配图使用 `images/research/a319-sle-nature-medicine.png`。
 
 ## 图片与样式
 

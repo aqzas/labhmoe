@@ -561,3 +561,47 @@
   image: images/research/tumor-cell-derived-evs-myeloma-review.jpg
   plugin: sources.py
   file: sources.yaml
+- id: 10.1038/s41591-026-04572-7
+  title: 'A bispecific CD3×CD19 antibody for systemic lupus erythematosus: a phase 1 trial'
+  authors:
+  - Jason Xu
+  - Chunli Mei
+  - Xin Guan
+  - Rong Du
+  - Bin Wu
+  - Di Wu
+  - Mengjiao Li
+  - Jingna Li
+  - You Song
+  - Hua Su
+  - Xiaoqi Chen
+  - Qianyu Guo
+  - Hanyang Chen
+  - Jonathan H. Sussman
+  - Gregory M. Chen
+  - Shovik Bandyopadhyay
+  - Vinodh Pillai
+  - Tobias V. Lanz
+  - Michaela Liedtke
+  - Kenan Onel
+  - Tamiko R. Katsumoto
+  - Kai Tan
+  - Xiaoqiang Yan
+  - May Chien
+  - Giselle Salmasi
+  - Andreas Kerschbaumer
+  - David T. Teachey
+  - Eric Meffre
+  - Vanessa E. Kennedy
+  - William H. Robinson
+  - Anbin Huang
+  - Matthew C. Baker
+  - Qiubai Li
+  publisher: Nature Medicine
+  date: '2026-09-10'
+  link: https://doi.org/10.1038/s41591-026-04572-7
+  type: paper
+  image: images/research/a319-sle-nature-medicine.png
+  description: Volume 32, pages 3372–3384 (2026)
+  plugin: sources.py
+  file: sources.yaml

@@ -3,6 +3,17 @@
 
 # UnionCell lab
 
+{% include section.html %}
+
+## News
+
+{% assign nature_medicine_news = site.posts | where: "slug", "tce-sle" %}
+{% for post in nature_medicine_news %}
+{% include news-excerpt.html post=post %}
+{% endfor %}
+
+{% include button.html link="news" text="View all news" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
+
 {% include section.html background="images/home/image2.JPG" dark=false %}
 
 Innovating Cell-Free & Cell-Based Therapies for Complex Diseases.
@@ -109,16 +120,3 @@ dedicated to medical innovation.</em>
   flip=true
   text=text
 %}
-
-{% include section.html %}
-
-## Latest News
-
-{% assign latest_news = site.posts | sort: "date" | reverse %}
-{% for post in latest_news limit: 3 %}
-{% include news-excerpt.html post=post style="compact" %}
-{% else %}
-News and laboratory updates will be posted here.
-{% endfor %}
-
-{% include button.html link="news" text="View all news" icon="fa-solid fa-arrow-right" flip=true style="bare" %}

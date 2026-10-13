@@ -13,7 +13,7 @@ nav:
 
 ## Highlighted
 
-{% include citation.html lookup="TCRdb" style="rich" %}
+{% include citation.html lookup="10.1038/s41591-026-04572-7" style="rich" %}
 
 {% include section.html %}
 
