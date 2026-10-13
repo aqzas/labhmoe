@@ -54,7 +54,7 @@
     // check if text content exists in element
     const hasText = (string) =>
       (
-        element.innerText +
+        element.textContent +
         getAttr(element, "tooltip") +
         getAttr(element, "search")
       )
@@ -62,7 +62,7 @@
         .includes(string);
     // check if text matches a tag in element
     const hasTag = (string) =>
-      tagElements.some((tag) => normalizeTag(tag.innerText) === string);
+      tagElements.some((tag) => normalizeTag(tag.textContent) === string);
 
     // match logic
     return (
@@ -98,7 +98,8 @@
     if (typeof Mark === "undefined") return;
 
     // reset
-    new Mark(document.body).unmark();
+    if (!terms.length && !phrases.length && !document.querySelector("mark")) return;
+    new Mark(elementSelector).unmark();
 
     // limit number of highlights to avoid slowdown
     let counter = 0;
@@ -196,7 +197,7 @@
   };
 
   // when user types into search box
-  const debouncedRunSearch = debounce(runSearch, 1000);
+  const debouncedRunSearch = debounce(runSearch, 200);
   window.onSearchInput = (target) => {
     debouncedRunSearch(target.value);
     updateUrl(target.value);
@@ -209,7 +210,7 @@
   };
 
   // after page loads
-  window.addEventListener("load", searchFromUrl);
+  window.addEventListener("DOMContentLoaded", searchFromUrl);
   // after tags load
   window.addEventListener("tagsfetched", searchFromUrl);
 }
