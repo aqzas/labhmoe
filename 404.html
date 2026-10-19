@@ -37,6 +37,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>404 | UnionCell lab</title>
@@ -49,13 +50,13 @@
 <meta property="og:title" content="404">
 <meta property="og:site_title" content="UnionCell lab">
 <meta property="og:description" content="">
-<meta property="og:url" content="https://home.unioncell.cn">
+<meta property="og:url" content="https://home.unioncell.cn/404.html">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="404">
 <meta property="twitter:description" content="">
-<meta property="twitter:url" content="https://home.unioncell.cn">
+<meta property="twitter:url" content="https://home.unioncell.cn/404.html">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -76,11 +77,14 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": "https://home.unioncell.cn"
+    "url": "https://home.unioncell.cn/404.html"
   }
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="https://home.unioncell.cn/feed.xml">
+
+<link rel="canonical" href="https://home.unioncell.cn/404.html">
+
 
   
   
@@ -343,6 +347,7 @@
 
 
 
+
 <header class="background" style="--image: url('/images/optimized/93291d3003ca68c0-1920.webp');--image-small: url('/images/optimized/93291d3003ca68c0-960.webp');" data-dark="true">
   <a href="/" class="home">
     
@@ -419,9 +424,9 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show or hide navigation" aria-controls="main-navigation">
 
-  <nav>
+  <nav id="main-navigation" aria-label="Main navigation">
     
     
       
@@ -455,12 +460,29 @@
       
     
       
-        <a href="/contact/" data-tooltip="课题组招生及博士后招聘">
+        <a href="/contact/" data-tooltip="Graduate admissions and postdoctoral opportunities">
           Contact
         </a>
       
     
   </nav>
+  
+
+
+
+
+
+
+
+
+<div class="language-switch" role="group" aria-label="Language">
+  <span lang="en" aria-current="true">EN</span>
+  <span aria-hidden="true">|</span>
+  
+    <a href="/zh/" lang="zh-CN" hreflang="zh-CN" title="This page has no translation yet. Open the corresponding section in the other language.">中文首页</a>
+  
+</div>
+
 </header>
 
     <main>
@@ -487,8 +509,8 @@
 <p class="center">Try searching the whole site for the content you want:</p>
 
 <form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google">
-  <button type="submit" class="button" aria-label="search site">
+  <input type="text" name="query" placeholder="Search site with Google" aria-label="Search site with Google">
+  <button type="submit" class="button" aria-label="Search">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
 </form>
@@ -497,6 +519,7 @@
 
     </main>
     
+
 
 
 <footer class="background" style="--image: url('/images/optimized/93291d3003ca68c0-1920.webp');--image-small: url('/images/optimized/93291d3003ca68c0-960.webp');" data-dark="true" data-size="wide">
@@ -534,7 +557,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="Toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

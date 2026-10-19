@@ -136,12 +136,17 @@
       boxes.forEach((info) => (info.style.display = ""));
 
       // info template
-      let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
-
-      // set info HTML string
-      boxes.forEach((el) => (el.innerHTML = info));
+      boxes.forEach((el) => {
+        const locale = document.documentElement.lang || "en";
+        const template = el.dataset.resultsTemplate || "Showing {shown} of {total} results";
+        const summary = template
+          .replace("{shown}", x.toLocaleString(locale))
+          .replace("{total}", n.toLocaleString(locale));
+        const clear = document.createElement("a");
+        clear.href = "./";
+        clear.textContent = el.dataset.clearLabel || "Clear search";
+        el.replaceChildren(document.createTextNode(summary), document.createElement("br"), clear);
+      });
     }
     // if nothing searched
     else {

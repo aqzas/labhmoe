@@ -37,6 +37,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Research | UnionCell lab</title>
@@ -49,13 +50,13 @@
 <meta property="og:title" content="Research">
 <meta property="og:site_title" content="UnionCell lab">
 <meta property="og:description" content="">
-<meta property="og:url" content="https://home.unioncell.cn">
+<meta property="og:url" content="https://home.unioncell.cn/research/">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Research">
 <meta property="twitter:description" content="">
-<meta property="twitter:url" content="https://home.unioncell.cn">
+<meta property="twitter:url" content="https://home.unioncell.cn/research/">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -76,11 +77,25 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": "https://home.unioncell.cn"
+    "url": "https://home.unioncell.cn/research/"
   }
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="https://home.unioncell.cn/feed.xml">
+
+<link rel="canonical" href="https://home.unioncell.cn/research/">
+
+  
+  
+    <link rel="alternate" hreflang="zh-CN" href="https://home.unioncell.cn/zh/research/">
+    
+  
+    <link rel="alternate" hreflang="en" href="https://home.unioncell.cn/research/">
+    
+      <link rel="alternate" hreflang="x-default" href="https://home.unioncell.cn/research/">
+    
+  
+
 
   
   
@@ -395,6 +410,7 @@
 
 
 
+
 <header class="background" style="--image: url('/images/optimized/93291d3003ca68c0-1920.webp');--image-small: url('/images/optimized/93291d3003ca68c0-960.webp');" data-dark="true">
   <a href="/" class="home">
     
@@ -471,13 +487,13 @@
     
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="Show or hide navigation" aria-controls="main-navigation">
 
-  <nav>
+  <nav id="main-navigation" aria-label="Main navigation">
     
     
       
-        <a href="/research/" data-tooltip="Published works">
+        <a href="/research/" data-tooltip="Published works" aria-current="page">
           Research
         </a>
       
@@ -507,12 +523,29 @@
       
     
       
-        <a href="/contact/" data-tooltip="课题组招生及博士后招聘">
+        <a href="/contact/" data-tooltip="Graduate admissions and postdoctoral opportunities">
           Contact
         </a>
       
     
   </nav>
+  
+
+
+
+
+
+
+
+
+<div class="language-switch" role="group" aria-label="Language">
+  <span lang="en" aria-current="true">EN</span>
+  <span aria-hidden="true">|</span>
+  
+    <a href="/zh/research/" lang="zh-CN" hreflang="zh-CN">中文</a>
+  
+</div>
+
 </header>
 
     <main>
@@ -612,13 +645,13 @@
 <h2 id="all">All</h2>
 
 <div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page" aria-label="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="Clear search" onclick="onSearchClear()">
     <i class="icon fa-solid fa-magnifying-glass"></i>
   </button>
 </div>
 
-<div class="search-info"></div>
+<div class="search-info" role="status" aria-live="polite" data-results-template="Showing {shown} of {total} results" data-clear-label="Clear search"></div>
 
 <h3 id="2026">2026</h3>
 
@@ -1781,6 +1814,7 @@
     
 
 
+
 <footer class="background" style="--image: url('/images/optimized/93291d3003ca68c0-1920.webp');--image-small: url('/images/optimized/93291d3003ca68c0-960.webp');" data-dark="true" data-size="wide">
   <!--
     <div>
@@ -1816,7 +1850,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="Toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>
