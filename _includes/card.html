@@ -1,22 +1,31 @@
+{% include i18n.html %}
+{% assign card_title = include.title %}
+{% assign card_subtitle = include.subtitle %}
+{% assign card_description = include.description %}
+{% if site_lang == "en" %}
+  {% assign card_title = include.title_en | default: card_title %}
+  {% assign card_subtitle = include.subtitle_en | default: card_subtitle %}
+  {% assign card_description = include.description_en | default: card_description %}
+{% endif %}
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
   <a
     {% if include.link %}
       href="{{ include.link | relative_url }}"
     {% endif %}
-    aria-label="{{ include.title | default: "card link" }}"
+    aria-label="{{ card_title | default: "card link" }}"
     class="card-image"
   >
     <img
       {% include image-attributes.html image=include.image sizes="(max-width: 600px) 100vw, 400px" %}
-      alt="{{ include.title | default: "card image" }}"
+      alt="{{ card_title | default: "card image" }}"
       loading="lazy"
       {% include fallback.html %}
     >
   </a>
 
   <div class="card-text">
-    {% if include.title %}
+    {% if card_title %}
       <a
         {% if include.link %}
           href="{{ include.link | relative_url }}"
@@ -26,17 +35,17 @@
         {% endif %}
         class="card-title"
       >
-        {{ include.title }}
+        {{ card_title }}
     </a>
     {% endif %}
 
-    {% if include.subtitle %}
-      <span class="card-subtitle">{{ include.subtitle }}</span>
+    {% if card_subtitle %}
+      <span class="card-subtitle">{{ card_subtitle }}</span>
     {% endif %}
 
-    {% if include.description %}
+    {% if card_description %}
       <p>
-        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
+        {{ card_description | markdownify | remove: "<p>" | remove: "</p>" }}
       </p>
     {% endif %}
 

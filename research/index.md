@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: research
 title: Research
 nav:
   order: 1

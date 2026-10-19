@@ -6,6 +6,9 @@
   description: 实验室长期专注于血液及免疫相关疾病的诊疗，尤其在骨髓和免疫系统的衰老机制及损伤修复领域有深入研究。作为干细胞及其细胞外囊泡（EVs）的资深研究团队，我们致力于通过创新性临床研究，解决免疫疾病、肿瘤等复杂疾病的诊疗难题。团队开展EVs的生物学特征及其临床应用的基础原创性研究已逾15年，取得了一系列国际领先的成果。
   tags:
     - resource
+  title_en: "Stem Cell and Extracellular Vesicle Therapies"
+  subtitle_en: "Exploring stem cells and EVs for complex diseases"
+  description_en: "Our laboratory studies hematological and immune-related diseases, particularly aging and repair in bone marrow and the immune system. Our stem cell and extracellular vesicle (EV) research seeks to address challenges in immune diseases, cancer and other complex conditions through innovative clinical studies. The team has conducted original research into EV biology and clinical applications for more than 15 years."
 
 - title: 白血病与骨髓瘤机制
   subtitle: 揭示白血病和骨髓瘤的新机制与治疗靶点
@@ -15,6 +18,9 @@
   description: 实验室团队率先发现白血病EVs能够将正常干细胞移植物转变为癌细胞，揭示了供体细胞白血病的全新机制。2014年受日本第37届造血细胞移植年会主席Ogawa教授之邀作大会发言；率先阐明骨髓瘤EVs的特征和功能，提供了新的发病机制、分子标志物和治疗靶点。
   tags:
     - resource
+  title_en: "Mechanisms of Leukemia and Myeloma"
+  subtitle_en: "Identifying disease mechanisms and therapeutic targets"
+  description_en: "Our team reported that leukemia-derived EVs can transform normal stem cell grafts into malignant cells, revealing a mechanism of donor-cell leukemia. This led to an invited plenary presentation at the 37th Annual Meeting of the Japan Society for Hematopoietic Cell Transplantation in 2014, at the invitation of its president, Professor Ogawa. We also characterized the properties and functions of myeloma EVs, identifying disease mechanisms, molecular markers and therapeutic targets."
 
 - title: 临床转化与产业化
   subtitle: 推动干细胞及EVs的产业化和临床转化
@@ -24,6 +30,9 @@
   tags:
     - resource
     - publication
+  title_en: "Clinical Translation and Commercialization"
+  subtitle_en: "Advancing stem cell and EV therapies toward clinical application"
+  description_en: "Professor Qiubai Li’s team connects industry, academia, research and clinical practice to develop stem cell-derived EV therapeutics, focusing on manufacturing technologies and clinical translation. The team leads a National Key R&D Program project on stem cell research and organ repair (2021–2026; RMB 73.5 million), with investigational new drug approvals for stem cell and EV products as a central objective. The team established the Hubei Engineering Research Center for Extracellular Vesicle Translational Applications and the Hubei Society for Extracellular Vesicles, including its translational medicine research and application committee."
 
 - title: 衰老与组织修复
   subtitle: 延缓衰老的全新“武器”——脐带干细胞来源EVs
@@ -32,6 +41,9 @@
   description: 我们发现脐带干细胞来源的EVs富含“年轻因子”，能够显著逆转骨髓干细胞的衰老，并延缓年老小鼠器官退行性变。这一发现为抗衰老领域提供了全新的治疗方法，并在顶级转化医学期刊《Sci Transl Med》发表后，成为高被引论文。该研究不仅揭示了EVs在延缓机体老化中的潜力，还为未来衰老相关疾病的治疗奠定了基础。
   tags:
     - software
+  title_en: "Aging and Tissue Repair"
+  subtitle_en: "Umbilical cord stem cell-derived EVs as a potential approach to aging"
+  description_en: "We found that EVs derived from umbilical cord stem cells contain factors that can reverse features of bone marrow stem cell aging and slow organ degeneration in aged mice. Published in Science Translational Medicine, this highly cited study highlights the potential of EVs in aging research and provides a basis for investigating therapies for age-related diseases."
 
 - title: 工程化EVs治疗
   subtitle: 工程化EVs与新型治疗手段的突破
@@ -40,3 +52,6 @@
   description: 团队成功构建了CD38抗原受体高表达的工程化EVs，能够有效逆转肺泡上皮细胞的衰老和肺纤维化。这项研究为老年性和结缔组织疾病相关的肺纤维化治疗提供了创新方案，并已申报发明专利，研究成果发表于美国化学学会期刊《ACS Nano》。此外，李教授团队还首次提出并验证了基于EVs动态监测干细胞功能状态的新方法，利用荧光分子层析（FMT）技术解决了EVs体内示踪成像的难题。
   tags:
     - software
+  title_en: "Engineered EV Therapies"
+  subtitle_en: "Developing engineered EVs and innovative therapeutic approaches"
+  description_en: "The team developed engineered EVs with high expression of the CD38 antigen receptor, which reversed alveolar epithelial cell senescence and pulmonary fibrosis in experimental studies. Published in ACS Nano and submitted for invention patent protection, this work suggests an approach to pulmonary fibrosis associated with aging and connective tissue diseases. Professor Li’s team also proposed and validated EV-based monitoring of stem cell function, using fluorescence molecular tomography (FMT) for in vivo EV tracking and imaging."

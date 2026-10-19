@@ -1,3 +1,4 @@
+{% include i18n.html %}
 {% assign news_item = include.post | default: include %}
 {% assign news_summary = news_item.content
   | default: ""
@@ -8,18 +9,20 @@
   | normalize_whitespace
   | truncate: 220
 %}
-<article class="news-excerpt"{% if include.style == "compact" %} data-compact{% endif %}
+{% assign news_lang = news_item.lang | default: "en" %}
+<article lang="{{ news_lang }}" class="news-excerpt"{% if include.style == "compact" %} data-compact{% endif %}
   data-search="{{ news_item.content | strip_html | normalize_whitespace | escape }} {{ news_item.author | escape }}">
   <time class="news-date" datetime="{{ news_item.date | date: '%Y-%m-%d' }}">
     <span class="news-day">{{ news_item.date | date: "%d" }}</span>
-    <span class="news-month">{{ news_item.date | date: "%b %Y" }}</span>
+    <span class="news-month">{% if site_lang == "zh-CN" %}{{ news_item.date | date: "%Y-%m" }}{% else %}{{ news_item.date | date: "%b %Y" }}{% endif %}</span>
   </time>
   <div class="news-text">
     {% if news_item.category %}<p class="news-category">{{ news_item.category | escape }}</p>{% endif %}
     <h3 class="news-title"><a href="{{ news_item.url | relative_url }}">{{ news_item.title | escape }}</a></h3>
+    {% if news_lang != site_lang %}<p class="original-language" lang="{{ site_lang }}">{% if news_lang == "zh-CN" %}{{ ui.original_zh }}{% else %}{{ ui.original_en }}{% endif %}</p>{% endif %}
     {% unless include.style == "compact" %}
       {% if news_summary != "" %}<p class="news-summary">{{ news_summary | escape }}</p>{% endif %}
-      {% include tags.html tags=news_item.tags link="news" %}
+      {% include tags.html tags=news_item.tags link=language_news %}
     {% endunless %}
   </div>
   {% if news_item.image and news_item.image != "" and include.style != "compact" %}

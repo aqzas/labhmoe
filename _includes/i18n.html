@@ -1,0 +1,8 @@
+{%- assign site_lang = page.lang | default: site.lang | default: "en" -%}
+{%- assign ui = site.data.i18n[site_lang] | default: site.data.i18n.en -%}
+{%- assign language_home = "/" -%}
+{%- assign language_news = "/news/" -%}
+{%- if site_lang == "zh-CN" -%}
+  {%- assign language_home = "/zh/" -%}
+  {%- assign language_news = "/zh/news/" -%}
+{%- endif -%}

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include i18n.html %}
+
 {% if page.source %}
 {% include section.html %}
 {% else %}
@@ -14,12 +16,12 @@ layout: default
 
 {% if page.subtitle %}<p class="news-subtitle center">{{ page.subtitle | escape }}</p>{% endif %}
 {% if page.source %}
-<p class="news-source center"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time><br>来源：{{ page.source | escape }}</p>
+<p class="news-source center"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%Y-%m-%d" }}</time><br>{{ ui.source }}：{{ page.source | escape }}</p>
 {% endif %}
 
 {% if page.source %}
 {% if page.author %}<p class="news-byline center">{{ page.author | escape }}</p>{% endif %}
-{% include tags.html tags=page.tags link="news" %}
+{% include tags.html tags=page.tags link=language_news %}
 {% else %}
 {%
   include post-info.html
@@ -43,4 +45,4 @@ layout: default
 
 {% include post-nav.html post=page %}
 
-<p class="center"><a href="{{ '/news/' | relative_url }}">View all news</a></p>
+<p class="center"><a href="{{ language_news | relative_url }}">{{ ui.view_all_news }}</a></p>

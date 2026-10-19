@@ -8,6 +8,9 @@
   english_title: "Clinical Study of A-319 in the Treatment of Active/Refractory Systemic Lupus Erythematosus"
   registration_number: "NCT06400537"
   registration_url: "https://clinicaltrials.gov/study/NCT06400537"
+  indication_en: "Active refractory systemic lupus erythematosus"
+  intervention_en: "A-319 (CD19×CD3 bispecific T-cell engager)"
+  phase_en: "IIT"
 
 - id: trial-002
   sequence: 2
@@ -19,6 +22,9 @@
   english_title: "A Phase I/IIa Clinical Study to Evaluate Universal Allogeneic CAR-T Cells Targeting CD19 and BCMA (QT-019B) in Patients with Refractory Systemic Lupus Erythematosus"
   registration_number: "CTR20254910"
   registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
+  indication_en: "Refractory systemic lupus erythematosus"
+  intervention_en: "Universal allogeneic CAR-T cells (QT-019B, targeting CD19/BCMA)"
+  phase_en: "Phase I/IIa"
 
 - id: trial-003
   sequence: 3
@@ -30,6 +36,9 @@
   english_title: "A Phase I Clinical Trial to Evaluate the Safety, Tolerability, and Preliminary Efficacy of KN5501 Cell Injection (KN5501) in Patients with Moderate-to-Severe Refractory Systemic Lupus Erythematosus (SLE)"
   registration_number: "CTR20255045"
   registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
+  indication_en: "Moderate-to-severe refractory systemic lupus erythematosus"
+  intervention_en: "KN5501 cell injection (CAR-T-type cell product)"
+  phase_en: "Phase I"
 
 - id: trial-004
   sequence: 4
@@ -41,6 +50,9 @@
   english_title: "Clinical Study of (A-319) in the Treatment of Active Rheumatoid Arthritis"
   registration_number: "NCT07347860"
   registration_url: "https://clinicaltrials.gov/study/NCT07347860"
+  indication_en: "Active rheumatoid arthritis"
+  intervention_en: "A-319 (CD19×CD3 bispecific T-cell engager)"
+  phase_en: "IIT"
 
 - id: trial-006
   sequence: 6
@@ -52,6 +64,9 @@
   english_title: "An Open-label Study of GB261 in Refractory Seropositive Systemic Lupus Erythematosus"
   registration_number: "NCT06945068"
   registration_url: "https://clinicaltrials.gov/study/NCT06945068"
+  indication_en: "Refractory seropositive systemic lupus erythematosus"
+  intervention_en: "GB261 (TCE-type bispecific antibody)"
+  phase_en: "Early Phase I"
 
 - id: trial-007
   sequence: 7
@@ -63,6 +78,9 @@
   english_title: "An Open-label Study of Cizutamig in Refractory Seropositive Rheumatoid Arthritis"
   registration_number: "NCT06946199"
   registration_url: "https://clinicaltrials.gov/study/NCT06946199"
+  indication_en: "Refractory seropositive rheumatoid arthritis"
+  intervention_en: "Cizutamig (TCE-type bispecific antibody)"
+  phase_en: "Early Phase I"
 
 - id: trial-008
   sequence: 8
@@ -74,6 +92,9 @@
   english_title: "Clinical Study of EVM18001 in the Treatment of Refractory Autoimmune Diseases"
   registration_number: "NCT07470151"
   registration_url: "https://clinicaltrials.gov/study/NCT07470151"
+  indication_en: "Systemic lupus erythematosus, systemic sclerosis and myasthenia gravis"
+  intervention_en: "EVM18001 injection"
+  phase_en: "Exploratory clinical study"
 
 - id: trial-009
   sequence: 9
@@ -85,6 +106,9 @@
   english_title: "Study of YKST02 Alone or in Combination With YK012 in Patients With Active or Refractory Systemic Lupus Erythematosus"
   registration_number: "NCT07512947"
   registration_url: "https://clinicaltrials.gov/study/NCT07512947"
+  indication_en: "Refractory or active systemic lupus erythematosus"
+  intervention_en: "YKST02 (CD3×CD19)"
+  phase_en: "IIT"
 
 - id: trial-010
   sequence: 10
@@ -96,6 +120,9 @@
   english_title: "A Phase Ib Clinical Study to Evaluate the Safety, Tolerability, Preliminary Efficacy, Pharmacokinetics, and Immunogenicity of F182112 in Patients with Systemic Lupus Erythematosus"
   registration_number: "CTR20253359"
   registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
+  indication_en: "Systemic lupus erythematosus"
+  intervention_en: "F182112 (recombinant humanized anti-BCMA/CD3 bispecific T-cell engager)"
+  phase_en: "Phase Ib"
 
 - id: trial-011
   sequence: 11
@@ -107,6 +134,9 @@
   english_title: "A Dose-Escalation Clinical Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of MK-1045 in Participants with Systemic Lupus Erythematosus or Rheumatoid Arthritis"
   registration_number: "CTR20260744"
   registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
+  indication_en: "Systemic lupus erythematosus and rheumatoid arthritis"
+  intervention_en: "MK-1045 (bispecific T-cell engager targeting CD3×CD19)"
+  phase_en: "Phase I"
 
 - id: trial-012
   sequence: 12
@@ -118,6 +148,9 @@
   english_title: "An Open-Label, Phase I Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of AZD5492 Following Single Ascending and Step-Up Doses in Adult Participants with Systemic Lupus Erythematosus or Idiopathic Inflammatory Myopathies"
   registration_number: "CTR20252694"
   registration_url: "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlistdetail.dhtml"
+  indication_en: "Systemic lupus erythematosus and idiopathic inflammatory myopathies"
+  intervention_en: "AZD5492 (targeting CD20, CD8 and the T-cell receptor)"
+  phase_en: "Phase I"
 
 - id: trial-013
   sequence: 13
@@ -129,3 +162,6 @@
   english_title: "A Study of GR1803 in Systemic Lupus Erythematosus"
   registration_number: "NCT07348055"
   registration_url: "https://clinicaltrials.gov/study/NCT07348055"
+  indication_en: "Systemic lupus erythematosus and idiopathic inflammatory myopathies"
+  intervention_en: "GR1803 injection (CD3 and BCMA)"
+  phase_en: "Phase Ib/IIa"

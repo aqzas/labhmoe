@@ -1,3 +1,4 @@
+{% include i18n.html %}
 {% assign tags = include.tags
   | object_items
   | join: ","
@@ -24,7 +25,7 @@
       <a
         href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+        data-tooltip="{{ ui.tag_tooltip }} &quot;{{ tag }}&quot;"
       >
         {{ tag }}
       </a>

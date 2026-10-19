@@ -1,3 +1,4 @@
+{% include i18n.html %}
 {% assign image = page.header | default: site.header %}
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
@@ -12,11 +13,11 @@
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
-  {% if page.url == "/" %}
+  {% if page.translation_key == "home" or page.url == "/" %}
     data-big
   {% endif %}
 >
-  <a href="{{ "/" | relative_url }}" class="home">
+  <a href="{{ language_home | relative_url }}" class="home">
     {% if logo %}
       <span class="logo">
         {% if svg %}
@@ -27,7 +28,7 @@
       </span>
     {% endif %}
     {% if site.logo-text != false %}
-      <span class="title-text" data-tooltip="Home">
+      <span class="title-text" data-tooltip="{{ ui.home }}">
         {% if site.title and site.show-title != false %}
           <span class="title">{{ site.title }}</span>
         {% endif %}
@@ -38,22 +39,25 @@
     {% endif %}
   </a>
 
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+  <input class="nav-toggle" type="checkbox" aria-label="{{ ui.toggle_nav }}" aria-controls="main-navigation">
 
-  <nav>
+  <nav id="main-navigation" aria-label="{{ ui.navigation }}">
     {% assign pages = site.pages
       | where_exp: "page", "page.nav"
+      | where: "lang", site_lang
       | sort: "nav.order"
     %}
-    {% for page in pages %}
-      {% if page.nav %}
+    {% for nav_page in pages %}
+      {% if nav_page.nav %}
         <a
-          href="{{ page.dir | relative_url }}"
-          data-tooltip="{{ page.nav.tooltip }}"
+          href="{{ nav_page.url | relative_url }}"
+          data-tooltip="{{ nav_page.nav.tooltip }}"
+          {% if page.url == nav_page.url %}aria-current="page"{% endif %}
         >
-          {{ page.title }}
+          {{ nav_page.title }}
         </a>
       {% endif %}
     {% endfor %}
   </nav>
+  {% include language-switch.html %}
 </header>

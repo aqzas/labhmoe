@@ -1,3 +1,4 @@
+{% include i18n.html %}
 {% assign filename = page.path | split: "/" | last %}
 {% if page.name and page.name != filename %}
   {% assign title = page.name %}
@@ -25,7 +26,7 @@
   {%- endcapture %}
 {% endif %}
 {% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
+  {{ page.url | absolute_url }}
 {%- endcapture %}
 
 {% assign png = "images/icon.png" | file_exists %}
@@ -55,7 +56,7 @@
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="{{ ui.locale }}">
 
 <meta property="twitter:title" content="{{ title }}">
 <meta property="twitter:description" content="{{ description }}">
@@ -97,3 +98,14 @@
 </script>
 
 <link rel="alternate" type="application/rss+xml" href="{{ feed }}">
+
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{% if page.translation_key %}
+  {% assign alternate_pages = site.pages | concat: site.posts | concat: site.members | where: "translation_key", page.translation_key %}
+  {% for alternate in alternate_pages %}
+    <link rel="alternate" hreflang="{{ alternate.lang }}" href="{{ alternate.url | absolute_url }}">
+    {% if alternate.lang == "en" %}
+      <link rel="alternate" hreflang="x-default" href="{{ alternate.url | absolute_url }}">
+    {% endif %}
+  {% endfor %}
+{% endif %}

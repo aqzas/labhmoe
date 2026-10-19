@@ -1,5 +1,6 @@
   # site properties and page defaults
 title: UnionCell lab
+lang: en
 subtitle: 
 description: 
 header: images/home/image1.jpg
@@ -20,6 +21,11 @@ defaults:
       path: ""
     values:
       layout: default
+      lang: en
+  - scope:
+      path: "zh"
+    values:
+      lang: zh-CN
   # markdown files in /_members
   - scope:
       type: "members"

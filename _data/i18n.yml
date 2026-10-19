@@ -1,0 +1,72 @@
+en:
+  home: Home
+  navigation: Main navigation
+  toggle_nav: Show or hide navigation
+  language: Language
+  translation_unavailable: This page has no translation yet. Open the corresponding section in the other language.
+  search_placeholder: Search items on this page
+  clear_search: Clear search
+  search_results: "Showing {shown} of {total} results"
+  site_search: Search site with Google
+  search: Search
+  built_with: Built with
+  dark_mode: Dark mode
+  toggle_dark: Toggle dark mode
+  tag_tooltip: "Show items with the tag"
+  all: All
+  filter_trials: Filter by product type
+  product_type: Product type
+  phase: Clinical phase
+  registration: Registration number
+  indication: Indication
+  intervention: Intervention
+  view_all_news: View all news
+  previous_news: Previous news item
+  next_news: Next news item
+  source: Source
+  original_zh: Full article in Chinese
+  original_en: Full article in English
+  member_original: Profile in English
+  portrait: Member portrait
+  locale: en_US
+zh-CN:
+  home: 首页
+  navigation: 主导航
+  toggle_nav: 展开或收起导航
+  language: 语言切换
+  translation_unavailable: 本页暂无对应译文，点击进入另一语言的对应栏目。
+  search_placeholder: 搜索本页内容
+  clear_search: 清除搜索
+  search_results: "共 {total} 条结果，显示 {shown} 条"
+  site_search: 使用 Google 搜索本站
+  search: 搜索
+  built_with: 网站基于
+  dark_mode: 深色模式
+  toggle_dark: 切换深色模式
+  tag_tooltip: "查看带有此标签的内容"
+  all: 全部
+  filter_trials: 按产品类型筛选
+  product_type: 产品类型
+  phase: 临床分期
+  registration: 注册号
+  indication: 适应症
+  intervention: 药物干预手段
+  view_all_news: 查看全部新闻
+  previous_news: 上一篇新闻
+  next_news: 下一篇新闻
+  source: 来源
+  original_zh: 正文为中文
+  original_en: 正文为英文
+  member_original: 英文资料页
+  portrait: 成员头像
+  locale: zh_CN
+  member_descriptions:
+    Full Professor: 教授
+    Attending Physician: 主治医师
+    Principal Investigator: 课题负责人
+    Postdoctoral Researcher: 博士后
+    PhD Student: 博士研究生
+    "Master's Student": 硕士研究生
+    8-Year Clinical Medicine Student: 八年制临床医学学生
+    Undergraduate Student: 本科生
+    Assistant: 科研助理

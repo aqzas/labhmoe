@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: team
 title: Team
 nav:
   order: 3

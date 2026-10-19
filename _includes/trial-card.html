@@ -1,26 +1,37 @@
+{% include i18n.html %}
+{% assign trial_title = include.trial.title %}
+{% assign trial_indication = include.trial.indication %}
+{% assign trial_intervention = include.trial.intervention %}
+{% assign trial_phase = include.trial.phase %}
+{% if site_lang == "en" %}
+  {% assign trial_title = include.trial.english_title | default: trial_title %}
+  {% assign trial_indication = include.trial.indication_en | default: trial_indication %}
+  {% assign trial_intervention = include.trial.intervention_en | default: trial_intervention %}
+  {% assign trial_phase = include.trial.phase_en | default: trial_phase %}
+{% endif %}
 <article class="trial-card" id="{{ include.trial.id | escape }}" data-product-type="{{ include.trial.product_type | escape }}" aria-labelledby="{{ include.trial.id | escape }}-title">
   <div class="trial-card__meta">
-    <span class="trial-card__type" aria-label="产品类型">{{ include.trial.product_type | escape }}</span>
-    <span class="trial-card__phase" aria-label="临床分期">{{ include.trial.phase | escape }}</span>
+    <span class="trial-card__type" aria-label="{{ ui.product_type }}">{{ include.trial.product_type | escape }}</span>
+    <span class="trial-card__phase" aria-label="{{ ui.phase }}">{{ trial_phase | escape }}</span>
   </div>
-  <h2 class="trial-card__title" id="{{ include.trial.id | escape }}-title">{{ include.trial.title | escape }}</h2>
-  {% if include.trial.english_title %}
+  <h2 class="trial-card__title" id="{{ include.trial.id | escape }}-title">{{ trial_title | escape }}</h2>
+  {% if site_lang == "zh-CN" and include.trial.english_title %}
   <p class="trial-card__english-title" lang="en">{{ include.trial.english_title | escape }}</p>
   {% endif %}
   <dl class="trial-card__fields">
     {% if include.trial.registration_number and include.trial.registration_url %}
     <div>
-      <dt>注册号</dt>
+      <dt>{{ ui.registration }}</dt>
       <dd><a class="trial-card__registration" href="{{ include.trial.registration_url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.trial.registration_number | escape }}</a></dd>
     </div>
     {% endif %}
     <div>
-      <dt>适应症</dt>
-      <dd class="trial-card__indication">{{ include.trial.indication | escape }}</dd>
+      <dt>{{ ui.indication }}</dt>
+      <dd class="trial-card__indication">{{ trial_indication | escape }}</dd>
     </div>
     <div>
-      <dt>药物干预手段</dt>
-      <dd class="trial-card__intervention">{{ include.trial.intervention | escape }}</dd>
+      <dt>{{ ui.intervention }}</dt>
+      <dd class="trial-card__intervention">{{ trial_intervention | escape }}</dd>
     </div>
   </dl>
 </article>

@@ -1,0 +1,39 @@
+{% assign translated_pages = site.pages | concat: site.posts | concat: site.members %}
+{% assign counterpart = nil %}
+{% assign target_lang = "zh-CN" %}
+{% assign target_label = "中文" %}
+{% assign fallback_label = "中文首页" %}
+{% assign fallback_url = "/zh/" %}
+{% if site_lang == "zh-CN" %}
+  {% assign target_lang = "en" %}
+  {% assign target_label = "EN" %}
+  {% assign fallback_label = "EN · Home" %}
+  {% assign fallback_url = "/" %}
+{% endif %}
+{% if page.translation_key %}
+  {% assign counterpart = translated_pages | where: "translation_key", page.translation_key | where: "lang", target_lang | first %}
+{% endif %}
+{% if page.collection == "posts" %}
+  {% assign fallback_url = "/zh/news/" %}
+  {% assign fallback_label = "中文新闻" %}
+  {% if target_lang == "en" %}
+    {% assign fallback_url = "/news/" %}
+    {% assign fallback_label = "EN · News" %}
+  {% endif %}
+{% elsif page.collection == "members" %}
+  {% assign fallback_url = "/zh/team/" %}
+  {% assign fallback_label = "中文团队页" %}
+  {% if target_lang == "en" %}
+    {% assign fallback_url = "/team/" %}
+    {% assign fallback_label = "EN · Team" %}
+  {% endif %}
+{% endif %}
+<div class="language-switch" role="group" aria-label="{{ ui.language }}">
+  <span lang="{{ site_lang }}" aria-current="true">{% if site_lang == "zh-CN" %}中文{% else %}EN{% endif %}</span>
+  <span aria-hidden="true">|</span>
+  {% if counterpart %}
+    <a href="{{ counterpart.url | relative_url }}" lang="{{ target_lang }}" hreflang="{{ target_lang }}">{{ target_label }}</a>
+  {% else %}
+    <a href="{{ fallback_url | relative_url }}" lang="{{ target_lang }}" hreflang="{{ target_lang }}" title="{{ ui.translation_unavailable }}">{{ fallback_label }}</a>
+  {% endif %}
+</div>

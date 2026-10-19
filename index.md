@@ -1,4 +1,6 @@
 ---
+lang: en
+translation_key: home
 ---
 
 # UnionCell lab

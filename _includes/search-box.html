@@ -1,14 +1,16 @@
+{% include i18n.html %}
 <div class="search-box">
   <input
     type="text"
     class="search-input"
     oninput="onSearchInput(this)"
-    placeholder="Search items on this page"
+    placeholder="{{ ui.search_placeholder }}"
+    aria-label="{{ ui.search_placeholder }}"
   />
   <button
     disabled
-    data-tooltip="Clear search"
-    aria-label="clear search"
+    data-tooltip="{{ ui.clear_search }}"
+    aria-label="{{ ui.clear_search }}"
     onclick="onSearchClear()"
   >
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}

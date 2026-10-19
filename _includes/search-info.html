@@ -1,1 +1,2 @@
-<div class="search-info"></div>
+{% include i18n.html %}
+<div class="search-info" role="status" aria-live="polite" data-results-template="{{ ui.search_results | escape }}" data-clear-label="{{ ui.clear_search | escape }}"></div>

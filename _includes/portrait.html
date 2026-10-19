@@ -1,3 +1,4 @@
+{% include i18n.html %}
 {% if include.lookup %}
   {% assign member = site.members 
     | where_exp: "member", "member.slug == include.lookup"
@@ -25,7 +26,7 @@
     <img
       {% include image-attributes.html image=member.image sizes="200px" %}
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ member.name | escape }} — {{ ui.portrait }}"
       loading="lazy"
       {% include fallback.html %}
     >
@@ -38,8 +39,13 @@
 
     {% if member.description or type %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {% assign member_description = member.description | default: type.description %}
+        {{ ui.member_descriptions[member_description] | default: member_description }}
       </span>
+    {% endif %}
+
+    {% if site_lang == "zh-CN" and member.lang != "zh-CN" and page.slug != member.slug %}
+      <span class="portrait-original">{{ ui.member_original }}</span>
     {% endif %}
 
     {% if member.affiliation %}
