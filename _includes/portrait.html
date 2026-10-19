@@ -9,6 +9,10 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign member_name = member.name %}
+{% if site_lang == "zh-CN" %}
+  {% assign member_name = member.name_zh | default: member.name %}
+{% endif %}
 
 <div class="portrait-wrapper">
   <a
@@ -17,7 +21,7 @@
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member.name | default: "member link" }}"
+    aria-label="{{ member_name | default: "member link" | escape }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -26,14 +30,14 @@
     <img
       {% include image-attributes.html image=member.image sizes="200px" %}
       class="portrait-image"
-      alt="{{ member.name | escape }} — {{ ui.portrait }}"
+      alt="{{ member_name | escape }} — {{ ui.portrait }}"
       loading="lazy"
       {% include fallback.html %}
     >
 
-    {% if member.name %}
+    {% if member_name %}
       <span class="portrait-name">
-        {{ member.name }}
+        {{ member_name | escape }}
       </span>
     {% endif %}
 
