@@ -26,11 +26,6 @@ defaults:
       path: "zh"
     values:
       lang: zh-CN
-  # markdown files in /_members
-  - scope:
-      type: "members"
-    values:
-      layout: member
   # markdown files in /_posts
   - scope:
       type: "posts"
