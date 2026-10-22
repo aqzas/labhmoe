@@ -15,13 +15,11 @@
 {% endif %}
 
 <div class="portrait-wrapper">
-  <a
-    {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url }}"
-    {% endif %}
+  <div
     class="portrait"
     data-style="{{ include.style }}"
-    aria-label="{{ member_name | default: "member link" | escape }}"
+    role="group"
+    aria-label="{{ member_name | default: ui.portrait | escape }}"
   >
     {% if type %}
       {% include icon.html icon=type.icon %}
@@ -48,14 +46,10 @@
       </span>
     {% endif %}
 
-    {% if site_lang == "zh-CN" and member.lang != "zh-CN" and page.slug != member.slug %}
-      <span class="portrait-original">{{ ui.member_original }}</span>
-    {% endif %}
-
     {% if member.affiliation %}
       <span class="portrait-affiliation">
         {{ member.affiliation }}
       </span>
     {% endif %}
-  </a>
+  </div>
 </div>

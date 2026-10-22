@@ -26,7 +26,6 @@ en:
   source: Source
   original_zh: Full article in Chinese
   original_en: Full article in English
-  member_original: Profile in English
   portrait: Member portrait
   locale: en_US
 zh-CN:
@@ -57,7 +56,6 @@ zh-CN:
   source: 来源
   original_zh: 正文为中文
   original_en: 正文为英文
-  member_original: 英文资料页
   portrait: 成员头像
   locale: zh_CN
   member_descriptions:

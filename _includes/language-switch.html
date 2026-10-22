@@ -1,4 +1,4 @@
-{% assign translated_pages = site.pages | concat: site.posts | concat: site.members %}
+{% assign translated_pages = site.pages | concat: site.posts %}
 {% assign counterpart = nil %}
 {% assign target_lang = "zh-CN" %}
 {% assign target_label = "中文" %}
@@ -19,13 +19,6 @@
   {% if target_lang == "en" %}
     {% assign fallback_url = "/news/" %}
     {% assign fallback_label = "EN · News" %}
-  {% endif %}
-{% elsif page.collection == "members" %}
-  {% assign fallback_url = "/zh/team/" %}
-  {% assign fallback_label = "中文团队页" %}
-  {% if target_lang == "en" %}
-    {% assign fallback_url = "/team/" %}
-    {% assign fallback_label = "EN · Team" %}
   {% endif %}
 {% endif %}
 <div class="language-switch" role="group" aria-label="{{ ui.language }}">

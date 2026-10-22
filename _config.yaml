@@ -38,9 +38,9 @@ defaults:
       layout: post
 
 collections:
-  # generate page for each member
+  # 成员信息仅供团队列表使用，不生成独立资料页
   members:
-    output: true
+    output: false
   # generate page for each post
   posts:
     output: true

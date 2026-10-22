@@ -101,7 +101,7 @@
 
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 {% if page.translation_key %}
-  {% assign alternate_pages = site.pages | concat: site.posts | concat: site.members | where: "translation_key", page.translation_key %}
+  {% assign alternate_pages = site.pages | concat: site.posts | where: "translation_key", page.translation_key %}
   {% for alternate in alternate_pages %}
     <link rel="alternate" hreflang="{{ alternate.lang }}" href="{{ alternate.url | absolute_url }}">
     {% if alternate.lang == "en" %}
