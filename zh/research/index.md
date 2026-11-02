@@ -3,7 +3,7 @@ lang: zh-CN
 translation_key: research
 title: 研究成果
 nav:
-  order: 1
+  order: 3
   tooltip: 论文与研究成果
 ---
 

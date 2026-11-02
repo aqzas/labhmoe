@@ -1,13 +1,13 @@
 ---
 lang: zh-CN
 translation_key: team
-title: 团队成员
+title: 研究成员
 nav:
-  order: 3
-  tooltip: 了解我们的团队
+  order: 2
+  tooltip: 研究成员与临床负责人
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}团队成员
+# {% include icon.html icon="fa-solid fa-users" %}研究成员
 
 临床医生与科研工作者携手合作，共同探索医学前沿。
 
@@ -19,6 +19,10 @@ nav:
 {% for leader in leaders %}
 {% include portrait.html lookup=leader.slug %}
 {% endfor %}
+
+### 临床负责人
+
+{% include list.html data="members" component="portrait" filters="role: ^clinical_lead$" %}
 
 ## 团队成员
 
@@ -38,6 +42,6 @@ nav:
 
 {% include list.html data="members" component="portrait" filters="role: ^clinical_medicine$" %}
 
-## 科研助理
+## 临床检验负责人
 
-{% include list.html data="members" component="portrait" filters="role: ^assistant$" %}
+{% include list.html data="members" component="portrait" filters="role: ^clinical_laboratory$" %}

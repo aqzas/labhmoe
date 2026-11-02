@@ -1,13 +1,13 @@
 ---
 lang: en
 translation_key: research
-title: Research
+title: Research Results
 nav:
-  order: 1
+  order: 3
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Research Results
 
 <em>Exploring cellular mechanisms and developing novel therapeutic strategies for human diseases.</em>
 

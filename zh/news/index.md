@@ -1,13 +1,13 @@
 ---
 lang: zh-CN
 translation_key: news
-title: 新闻动态
+title: 研究动态
 nav:
   order: 4
-  tooltip: 最新新闻与学术活动
+  tooltip: 研究动态与学术活动
 ---
 
-# {% include icon.html icon="fa-regular fa-newspaper" %}新闻动态
+# {% include icon.html icon="fa-regular fa-newspaper" %}研究动态
 
 实验室新闻、学术活动、会议交流、访问、获奖与最新进展。
 
@@ -18,7 +18,7 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="news-excerpt" %}
+{% include list.html data="posts" component="news-excerpt" filters="lang: zh-CN" %}
 {% else %}
 实验室新闻与最新动态将在此发布。
 {% endif %}

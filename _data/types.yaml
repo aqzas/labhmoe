@@ -6,6 +6,14 @@ pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+clinical_lead:
+  icon: fa-solid fa-user-doctor
+  description: Clinical Lead
+
+clinical_laboratory:
+  icon: fa-solid fa-flask-vial
+  description: Clinical Laboratory Lead
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher

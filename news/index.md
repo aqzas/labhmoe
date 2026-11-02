@@ -1,15 +1,15 @@
 ---
 lang: en
 translation_key: news
-title: News
+title: Research News
 nav:
   order: 4
-  tooltip: Latest news and activities
+  tooltip: Research news and activities
 redirect_from:
   - /blog/
 ---
 
-# {% include icon.html icon="fa-regular fa-newspaper" %}News
+# {% include icon.html icon="fa-regular fa-newspaper" %}Research News
 
 Latest news, academic activities, conferences, visits, awards, and laboratory updates.
 
@@ -20,7 +20,7 @@ Latest news, academic activities, conferences, visits, awards, and laboratory up
 
 {% include search-info.html %}
 
-{% include list.html data="posts" component="news-excerpt" %}
+{% include list.html data="posts" component="news-excerpt" filters="lang: en" %}
 {% else %}
 News and laboratory updates will be posted here.
 {% endif %}

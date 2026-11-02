@@ -2,7 +2,7 @@
 name: XiaoJing Liu
 name_zh: 刘晓晶
 image: images/avatar/liuxiaojing.jpg
-role: pi
+role: clinical_lead
 description: Attending Physician
-order: 3
+order: 5
 ---

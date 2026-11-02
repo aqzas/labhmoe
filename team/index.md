@@ -1,13 +1,13 @@
 ---
 lang: en
 translation_key: team
-title: Team
+title: Research Members
 nav:
-  order: 3
-  tooltip: About our team
+  order: 2
+  tooltip: Research members and clinical leads
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+# {% include icon.html icon="fa-solid fa-users" %}Research Members
 
 A collaborative team of clinicians and scientists working together to advance medical frontiers.
 
@@ -19,6 +19,10 @@ A collaborative team of clinicians and scientists working together to advance me
 {% for leader in leaders %}
 {% include portrait.html lookup=leader.slug %}
 {% endfor %}
+
+### Clinical Leads
+
+{% include list.html data="members" component="portrait" filters="role: ^clinical_lead$" %}
 
 ## Members
 
@@ -38,6 +42,6 @@ A collaborative team of clinicians and scientists working together to advance me
 
 {% include list.html data="members" component="portrait" filters="role: ^clinical_medicine$" %}
 
-## Assistant
+## Clinical Laboratory Leads
 
-{% include list.html data="members" component="portrait" filters="role: ^assistant$" %}
+{% include list.html data="members" component="portrait" filters="role: ^clinical_laboratory$" %}
