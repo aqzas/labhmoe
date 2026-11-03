@@ -1,4 +1,4 @@
-﻿---
+---
 lang: en
 translation_key: home
 ---

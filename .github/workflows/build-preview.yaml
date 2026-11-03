@@ -52,6 +52,16 @@ jobs:
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}/${{ env.PREVIEWS_FOLDER }}/pr-${{ github.event.number }}"
 
+      - name: Verify home pages
+        if: github.event.action != 'closed'
+        run: |
+          for page in _site/index.html _site/zh/index.html; do
+            if [ ! -s "$page" ]; then
+              echo "::error file=$page::首页未生成，请检查首页 Markdown 文件的 front matter 和 UTF-8 编码。"
+              exit 1
+            fi
+          done
+
       - name: Commit preview to Pages branch
         uses: rossjrw/pr-preview-action@v1.4.7
         with:

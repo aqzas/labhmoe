@@ -49,6 +49,15 @@ jobs:
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
+      - name: Verify home pages
+        run: |
+          for page in _site/index.html _site/zh/index.html; do
+            if [ ! -s "$page" ]; then
+              echo "::error file=$page::首页未生成，请检查首页 Markdown 文件的 front matter 和 UTF-8 编码。"
+              exit 1
+            fi
+          done
+
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:

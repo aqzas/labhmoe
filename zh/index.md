@@ -1,4 +1,4 @@
-﻿---
+---
 lang: zh-CN
 translation_key: home
 ---
