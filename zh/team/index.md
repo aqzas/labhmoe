@@ -22,7 +22,10 @@ nav:
 
 ### 临床负责人
 
-{% include list.html data="members" component="portrait" filters="role: ^clinical_lead$" %}
+{% assign clinical_leads = site.members | where: "role", "clinical_lead" | sort: "order" %}
+{% for clinical_lead in clinical_leads %}
+{% include portrait.html lookup=clinical_lead.slug %}
+{% endfor %}
 
 ## 团队成员
 
