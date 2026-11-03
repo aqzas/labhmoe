@@ -60,6 +60,8 @@ zh-CN:
   locale: zh_CN
   member_descriptions:
     Full Professor: 教授
+    Chief Physician: 主任医师
+    Associate Chief Physician: 副主任医师
     Attending Physician: 主治医师
     Principal Investigator: 课题负责人
     Clinical Lead: 临床负责人
