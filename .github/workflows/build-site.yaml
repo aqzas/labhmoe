@@ -17,7 +17,8 @@ permissions:
 
 jobs:
   build-site:
-    runs-on: ubuntu-latest
+    # Ruby 3.1 不支持 Ubuntu 26.04，固定系统版本以避免 latest 自动迁移。
+    runs-on: ubuntu-24.04
 
     steps:
       # for debugging
